@@ -1,0 +1,11 @@
+﻿<XtraSerializer version="1.0" application="Appearances">
+  <property name="Empty" iskey="true" value="Empty">
+    <property name="BackColor2">WhiteSmoke</property>
+    <property name="BackColor">WhiteSmoke</property>
+    <property name="BorderColor">WhiteSmoke</property>
+    <property name="Options" isnull="true" iskey="true">
+      <property name="UseBackColor">true</property>
+      <property name="UseBorderColor">true</property>
+    </property>
+  </property>
+</XtraSerializer>

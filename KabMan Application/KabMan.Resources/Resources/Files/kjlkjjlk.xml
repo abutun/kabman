@@ -1,0 +1,219 @@
+﻿<XtraSerializer version="1.0" application="TreeList">
+  <property name="#LayoutVersion" />
+  <property name="RowHeight">-1</property>
+  <property name="ColumnPanelRowHeight">-1</property>
+  <property name="DragExpandDelay">1000</property>
+  <property name="CustomizationRowCount">7</property>
+  <property name="ShowButtonMode">ShowForFocusedCell</property>
+  <property name="IndicatorWidth">-1</property>
+  <property name="PreviewLineCount">1</property>
+  <property name="Columns" iskey="true" value="6">
+    <property name="Item1" isnull="true" iskey="true">
+      <property name="SortOrder">None</property>
+      <property name="Tag" isnull="true" />
+      <property name="SummaryFooterStrFormat">{0}</property>
+      <property name="ImageAlignment">Near</property>
+      <property name="Width">75</property>
+      <property name="UnboundType">Object</property>
+      <property name="RowFooterSummary">None</property>
+      <property name="Format" isnull="true" iskey="true">
+        <property name="FormatString" />
+        <property name="FormatType">None</property>
+      </property>
+      <property name="MinWidth">56</property>
+      <property name="RowFooterSummaryStrFormat">{0}</property>
+      <property name="AllNodesSummary">false</property>
+      <property name="SummaryFooter">None</property>
+      <property name="ImageIndex">-1</property>
+      <property name="CustomizationCaption" />
+      <property name="FieldName">Value</property>
+      <property name="Name">treeListColumn1</property>
+      <property name="SortIndex">-1</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="AllowMoveToCustomizationForm">false</property>
+        <property name="AllowEdit">false</property>
+        <property name="ShowInCustomizationForm">false</property>
+        <property name="AllowMove">false</property>
+        <property name="AllowSort">false</property>
+      </property>
+      <property name="Caption">Control Panel</property>
+      <property name="AllowIncrementalSearch">true</property>
+      <property name="VisibleIndex">0</property>
+      <property name="Visible">true</property>
+      <property name="ColumnEditName" />
+      <property name="Fixed">None</property>
+    </property>
+    <property name="Item2" isnull="true" iskey="true">
+      <property name="SortOrder">None</property>
+      <property name="Tag" isnull="true" />
+      <property name="SummaryFooterStrFormat">{0}</property>
+      <property name="ImageAlignment">Near</property>
+      <property name="Width">75</property>
+      <property name="UnboundType">Object</property>
+      <property name="RowFooterSummary">None</property>
+      <property name="Format" isnull="true" iskey="true">
+        <property name="FormatString" />
+        <property name="FormatType">None</property>
+      </property>
+      <property name="MinWidth">20</property>
+      <property name="RowFooterSummaryStrFormat">{0}</property>
+      <property name="AllNodesSummary">false</property>
+      <property name="SummaryFooter">None</property>
+      <property name="ImageIndex">-1</property>
+      <property name="CustomizationCaption" />
+      <property name="FieldName">Id</property>
+      <property name="Name">treeListColumn2</property>
+      <property name="SortIndex">-1</property>
+      <property name="Caption">Id</property>
+      <property name="AllowIncrementalSearch">true</property>
+      <property name="VisibleIndex">-1</property>
+      <property name="Visible">false</property>
+      <property name="ColumnEditName" />
+      <property name="Fixed">None</property>
+    </property>
+    <property name="Item3" isnull="true" iskey="true">
+      <property name="SortOrder">None</property>
+      <property name="Tag" isnull="true" />
+      <property name="SummaryFooterStrFormat">{0}</property>
+      <property name="ImageAlignment">Near</property>
+      <property name="Width">75</property>
+      <property name="UnboundType">Object</property>
+      <property name="RowFooterSummary">None</property>
+      <property name="Format" isnull="true" iskey="true">
+        <property name="FormatString" />
+        <property name="FormatType">None</property>
+      </property>
+      <property name="MinWidth">20</property>
+      <property name="RowFooterSummaryStrFormat">{0}</property>
+      <property name="AllNodesSummary">false</property>
+      <property name="SummaryFooter">None</property>
+      <property name="ImageIndex">-1</property>
+      <property name="CustomizationCaption" />
+      <property name="FieldName">ImageIndex</property>
+      <property name="Name">treeListColumn3</property>
+      <property name="SortIndex">-1</property>
+      <property name="Caption">treeListColumn3</property>
+      <property name="AllowIncrementalSearch">true</property>
+      <property name="VisibleIndex">-1</property>
+      <property name="Visible">false</property>
+      <property name="ColumnEditName" />
+      <property name="Fixed">None</property>
+    </property>
+    <property name="Item4" isnull="true" iskey="true">
+      <property name="SortOrder">None</property>
+      <property name="Tag" isnull="true" />
+      <property name="SummaryFooterStrFormat">{0}</property>
+      <property name="ImageAlignment">Near</property>
+      <property name="Width">75</property>
+      <property name="UnboundType">Object</property>
+      <property name="RowFooterSummary">None</property>
+      <property name="Format" isnull="true" iskey="true">
+        <property name="FormatString" />
+        <property name="FormatType">None</property>
+      </property>
+      <property name="MinWidth">20</property>
+      <property name="RowFooterSummaryStrFormat">{0}</property>
+      <property name="AllNodesSummary">false</property>
+      <property name="SummaryFooter">None</property>
+      <property name="ImageIndex">-1</property>
+      <property name="CustomizationCaption" />
+      <property name="FieldName">ObjectId</property>
+      <property name="Name">treeListColumn4</property>
+      <property name="SortIndex">-1</property>
+      <property name="Caption">treeListColumn4</property>
+      <property name="AllowIncrementalSearch">true</property>
+      <property name="VisibleIndex">-1</property>
+      <property name="Visible">false</property>
+      <property name="ColumnEditName" />
+      <property name="Fixed">None</property>
+    </property>
+    <property name="Item5" isnull="true" iskey="true">
+      <property name="SortOrder">None</property>
+      <property name="Tag" isnull="true" />
+      <property name="SummaryFooterStrFormat">{0}</property>
+      <property name="ImageAlignment">Near</property>
+      <property name="Width">75</property>
+      <property name="UnboundType">Object</property>
+      <property name="RowFooterSummary">None</property>
+      <property name="Format" isnull="true" iskey="true">
+        <property name="FormatString" />
+        <property name="FormatType">None</property>
+      </property>
+      <property name="MinWidth">20</property>
+      <property name="RowFooterSummaryStrFormat">{0}</property>
+      <property name="AllNodesSummary">false</property>
+      <property name="SummaryFooter">None</property>
+      <property name="ImageIndex">-1</property>
+      <property name="CustomizationCaption" />
+      <property name="FieldName">ObjectValue</property>
+      <property name="Name">treeListColumn5</property>
+      <property name="SortIndex">-1</property>
+      <property name="Caption">treeListColumn5</property>
+      <property name="AllowIncrementalSearch">true</property>
+      <property name="VisibleIndex">-1</property>
+      <property name="Visible">false</property>
+      <property name="ColumnEditName" />
+      <property name="Fixed">None</property>
+    </property>
+    <property name="Item6" isnull="true" iskey="true">
+      <property name="SortOrder">None</property>
+      <property name="Tag" isnull="true" />
+      <property name="SummaryFooterStrFormat">{0}</property>
+      <property name="ImageAlignment">Near</property>
+      <property name="Width">75</property>
+      <property name="UnboundType">Object</property>
+      <property name="RowFooterSummary">None</property>
+      <property name="Format" isnull="true" iskey="true">
+        <property name="FormatString" />
+        <property name="FormatType">None</property>
+      </property>
+      <property name="MinWidth">20</property>
+      <property name="RowFooterSummaryStrFormat">{0}</property>
+      <property name="AllNodesSummary">false</property>
+      <property name="SummaryFooter">None</property>
+      <property name="ImageIndex">-1</property>
+      <property name="CustomizationCaption" />
+      <property name="FieldName">Value</property>
+      <property name="Name">treeListColumn6</property>
+      <property name="SortIndex">-1</property>
+      <property name="Caption">treeListColumn6</property>
+      <property name="AllowIncrementalSearch">true</property>
+      <property name="VisibleIndex">-1</property>
+      <property name="Visible">false</property>
+      <property name="ColumnEditName" />
+      <property name="Fixed">None</property>
+    </property>
+  </property>
+  <property name="HorzScrollStep">3</property>
+  <property name="VertScrollVisibility">Auto</property>
+  <property name="CustomizationFormBounds">@3,X=831@3,Y=380@3,Width=216@3,Height=178</property>
+  <property name="HorzScrollVisibility">Auto</property>
+  <property name="LayoutVersion" />
+  <property name="BestFitVisibleOnly">false</property>
+  <property name="FixedLineWidth">2</property>
+  <property name="BorderStyle">Office2003</property>
+  <property name="ImageIndexFieldName">ImageIndex</property>
+  <property name="KeyFieldName">ID</property>
+  <property name="ParentFieldName">ParentID</property>
+  <property name="TreeLevelWidth">18</property>
+  <property name="RootValue" type="System.Int32">0</property>
+  <property name="TreeLineStyle">Percent50</property>
+  <property name="PreviewFieldName" />
+  <property name="OptionsBehavior" isnull="true" iskey="true">
+    <property name="ShowEditorOnMouseUp">true</property>
+    <property name="PopulateServiceColumns">true</property>
+    <property name="ExpandNodesOnIncrementalSearch">true</property>
+    <property name="EnableFiltering">true</property>
+    <property name="AllowIndeterminateCheckState">true</property>
+    <property name="AllowIncrementalSearch">true</property>
+    <property name="Editable">false</property>
+  </property>
+  <property name="OptionsMenu" isnull="true" iskey="true">
+    <property name="EnableFooterMenu">false</property>
+    <property name="EnableColumnMenu">false</property>
+  </property>
+  <property name="OptionsView" isnull="true" iskey="true">
+    <property name="ShowHorzLines">false</property>
+    <property name="ShowIndicator">false</property>
+  </property>
+</XtraSerializer>

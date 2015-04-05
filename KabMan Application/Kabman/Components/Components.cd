@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="KabMan.Components.Blech" BaseTypeListCollapsed="true">
+    <Position X="3" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAgAABEAAAABAGABHIEAAAAAAAIAIAAAABAAABACAg=</HashCode>
+      <FileName>Components\Blech.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="KabMan.Components.CableBase">
+    <Position X="0.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAEAEAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Components\CableBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KabMan.Components.JumperCable">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAEAAAAAAAAAAAgAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Components\JumperCable.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="KabMan.Components.TrunkCable">
+    <Position X="0.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAEAAAAAAAAAAIAAAAAEBAAAAAAAAEAAABAAAA=</HashCode>
+      <FileName>Components\TrunkCable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KabMan.Components.VtPort" BaseTypeListCollapsed="true">
+    <Position X="4.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAgAAAEAAAABAAABHIEAAAAAAAAAIEAAAAAAABACAA=</HashCode>
+      <FileName>Components\VtPort.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Interface Name="KabMan.Components.IAcronymComponent">
+    <Position X="6.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Components\IAcronymComponent.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="KabMan.Components.BlechTypes">
+    <Position X="6.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAgAAACA=</HashCode>
+      <FileName>Components\BlechTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

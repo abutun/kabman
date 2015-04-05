@@ -1,0 +1,795 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C66E4093-8AB5-4505-B682-3D96CA779341}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>KabMan</RootNamespace>
+    <AssemblyName>KabMan</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ApplicationIcon>KabMan.ico</ApplicationIcon>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <SignAssembly>false</SignAssembly>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <PublishUrl>http://localhost/KabMan.Client/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Charts.v9.1.Core, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Data.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.OfficeSkins.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=95fc6c5621878f0a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraBars.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraNavBar.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPivotGrid.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPivotGrid.v9.1.Core, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPrinting.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraReports.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraRichEdit.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraTreeList.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraVerticalGrid.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.SqlServer.ConnectionInfo, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.SqlServer.Management.Sdk.Sfc, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.SqlServer.Smo, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.SqlServer.SmoExtended, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Design" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Components\Blech.cs" />
+    <Compile Include="Components\BlechTypes.cs" />
+    <Compile Include="Components\CableBase.cs" />
+    <Compile Include="Components\Dcc.cs" />
+    <Compile Include="Components\Dasd.cs" />
+    <Compile Include="Forms\Import\DCCCollector.cs" />
+    <Compile Include="Forms\Logs\Logs.cs" />
+    <Compile Include="Forms\Logs\Logs.Designer.cs">
+      <DependentUpon>Logs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\System\SQLManagement.cs" />
+    <Compile Include="Forms\System\SQLManagement.Designer.cs">
+      <DependentUpon>SQLManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Import\Components\DccImportComponent.cs" />
+    <Compile Include="Import\List Generators\DccCollector.cs" />
+    <Compile Include="KabManDataSetServerDCC.cs">
+      <DependentUpon>KabManDataSetServerDCC.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="KabManDataSetServerDCC.Designer.cs">
+      <DependentUpon>KabManDataSetServerDCC.xsd</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="KabManDataSetServer.cs">
+      <DependentUpon>KabManDataSetServer.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="KabManDataSetServer.Designer.cs">
+      <DependentUpon>KabManDataSetServer.xsd</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Extensions\DelegateComparer.cs" />
+    <Compile Include="Extensions\GridHelper.cs" />
+    <Compile Include="Extensions\RefreshHelperClass.cs" />
+    <Compile Include="Extensions\Registry.cs" />
+    <Compile Include="Extensions\ToStringEqualityComparer.cs" />
+    <Compile Include="Extensions\ImportExtensions.cs" />
+    <Compile Include="Forms\Connection\NewConnectionName.cs" />
+    <Compile Include="Forms\Connection\NewConnectionName.Designer.cs">
+      <DependentUpon>NewConnectionName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Connection\SwitchDetailUpdateForm.cs" />
+    <Compile Include="Forms\Connection\SwitchDetailUpdateForm.Designer.cs">
+      <DependentUpon>SwitchDetailUpdateForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\DataCenter\DCCDetailList.cs" />
+    <Compile Include="Forms\DataCenter\DCCDetailList.Designer.cs">
+      <DependentUpon>DCCDetailList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\DataCenter\DCCList.cs" />
+    <Compile Include="Forms\DataCenter\DCCList.Designer.cs">
+      <DependentUpon>DCCList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\DataCenter\NewDCCForm.cs" />
+    <Compile Include="Forms\DataCenter\NewDCCForm.Designer.cs">
+      <DependentUpon>NewDCCForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Import\BlechCollector.cs" />
+    <Compile Include="Forms\Import\DasdCollector.cs" />
+    <Compile Include="Forms\Import\ServerCollector.cs" />
+    <Compile Include="Forms\User\UserLogs.cs" />
+    <Compile Include="Forms\User\UserLogs.Designer.cs">
+      <DependentUpon>UserLogs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\User\UserManagerDetailForm.cs" />
+    <Compile Include="Forms\User\UserManagerDetailForm.Designer.cs">
+      <DependentUpon>UserManagerDetailForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\User\UserManagerForm.cs" />
+    <Compile Include="Forms\User\UserManagerForm.Designer.cs">
+      <DependentUpon>UserManagerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Import\List Generators\DasdCollector.cs" />
+    <Compile Include="Import\List Generators\ServerCollector.cs" />
+    <Compile Include="Forms\Import\SwitchCollector.cs" />
+    <Compile Include="Forms\Import\CollectedDasdModelEditorForm.cs" />
+    <Compile Include="Forms\Import\CollectedDasdModelEditorForm.Designer.cs">
+      <DependentUpon>CollectedDasdModelEditorForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Import\CollectedSwitchModelEditorForm.cs" />
+    <Compile Include="Forms\Import\CollectedSwitchModelEditorForm.Designer.cs">
+      <DependentUpon>CollectedSwitchModelEditorForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Import\CollectedTrunkEditorForm.cs" />
+    <Compile Include="Forms\Import\CollectedTrunkEditorForm.Designer.cs">
+      <DependentUpon>CollectedTrunkEditorForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Import\ImportToDB.cs" />
+    <Compile Include="Import\DirectoryNotDefinedException.cs" />
+    <Compile Include="Components\IAcronymComponent.cs" />
+    <Compile Include="Import\ExcelConnector.cs" />
+    <Compile Include="Import\GridCellValueErrorStates.cs" />
+    <Compile Include="Import\List Generators\CoordinateCollector.cs" />
+    <Compile Include="Import\List Generators\SwitchCollector.cs" />
+    <Compile Include="Import\List Generators\DasdModelCollector.cs" />
+    <Compile Include="Import\List Generators\DataCenterCollector.cs" />
+    <Compile Include="Import\List Generators\ImportCollectorBase.cs" />
+    <Compile Include="Import\List Generators\JumperCableCollector.cs" />
+    <Compile Include="Import\List Generators\BlechCollector.cs" />
+    <Compile Include="Import\List Generators\LocationCollector.cs" />
+    <Compile Include="Import\List Generators\OperatingSystemCollector.cs" />
+    <Compile Include="Import\List Generators\SwitchModelCollector.cs" />
+    <Compile Include="Import\List Generators\TrunkCableCollector.cs" />
+    <Compile Include="Import\List Generators\VtPortCollector.cs" />
+    <Compile Include="Import\Validators\GridViewCellValidator.cs" />
+    <Compile Include="Import\Validators\ImportFilesPathValidator.cs" />
+    <Compile Include="Components\JumperCable.cs" />
+    <Compile Include="Components\Server.cs" />
+    <Compile Include="Components\Switch.cs" />
+    <Compile Include="Components\TrunkCable.cs" />
+    <Compile Include="Components\VtPort.cs" />
+    <Compile Include="Extensions\Extensions.cs" />
+    <Compile Include="Forms\Blech\BlechManagerForm.cs" />
+    <Compile Include="Forms\Blech\BlechManagerForm.Designer.cs">
+      <DependentUpon>BlechManagerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Blech\BlechTypeManagerForm.cs" />
+    <Compile Include="Forms\Blech\BlechTypeManagerForm.Designer.cs">
+      <DependentUpon>BlechTypeManagerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Blech\BlechDetailManagerForm.cs" />
+    <Compile Include="Forms\Blech\BlechDetailManagerForm.Designer.cs">
+      <DependentUpon>BlechDetailManagerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Blech\NewBlechForm.cs" />
+    <Compile Include="Forms\Blech\NewBlechForm.Designer.cs">
+      <DependentUpon>NewBlechForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Cable\CableCategoryManagerForm.cs" />
+    <Compile Include="Forms\Cable\CableCategoryManagerForm.Designer.cs">
+      <DependentUpon>CableCategoryManagerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Cable\CableManagerForm.cs" />
+    <Compile Include="Forms\Cable\CableManagerForm.Designer.cs">
+      <DependentUpon>CableManagerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Cable\CableModelManagerForm.cs" />
+    <Compile Include="Forms\Cable\CableModelManagerForm.Designer.cs">
+      <DependentUpon>CableModelManagerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Connection\ActivateReservationForm.cs" />
+    <Compile Include="Forms\Connection\ActivateReservationForm.Designer.cs">
+      <DependentUpon>ActivateReservationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Connection\NewConnectionForm.cs" />
+    <Compile Include="Forms\Connection\NewConnectionForm.Designer.cs">
+      <DependentUpon>NewConnectionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Dasd\DasdCuTypeManagerForm.cs" />
+    <Compile Include="Forms\Dasd\DasdCuTypeManagerForm.Designer.cs">
+      <DependentUpon>DasdCuTypeManagerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Dasd\DasdDetailManagerForm.cs" />
+    <Compile Include="Forms\Dasd\DasdDetailManagerForm.Designer.cs">
+      <DependentUpon>DasdDetailManagerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Dasd\DasdManagerForm.cs" />
+    <Compile Include="Forms\Dasd\DasdManagerForm.Designer.cs">
+      <DependentUpon>DasdManagerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Dasd\NewDasdForm.cs" />
+    <Compile Include="Forms\Dasd\NewDasdForm.Designer.cs">
+      <DependentUpon>NewDasdForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Import\ExcelImportForm.cs" />
+    <Compile Include="Forms\Import\CoordinateCollector.cs">
+      <DependentUpon>ExcelImportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Import\DataCenterCollector.cs">
+      <DependentUpon>ExcelImportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Import\VtPortCollector.cs">
+      <DependentUpon>ExcelImportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Import\DasdModelCollector.cs">
+      <DependentUpon>ExcelImportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Import\LocationCollector.cs">
+      <DependentUpon>ExcelImportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Import\OsCollector.cs">
+      <DependentUpon>ExcelImportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Import\SwitchModelCollector.cs">
+      <DependentUpon>ExcelImportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Import\JumperCollector.cs">
+      <DependentUpon>ExcelImportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Import\TrunkCollector.cs">
+      <DependentUpon>ExcelImportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Import\Designer.cs">
+      <DependentUpon>ExcelImportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Import\ErrorProvider.cs">
+      <DependentUpon>ExcelImportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Import\Validator.cs">
+      <DependentUpon>ExcelImportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Import\ExcelConnector.cs">
+      <DependentUpon>ExcelImportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Import\ExcelImportForm.Designer.cs">
+      <DependentUpon>ExcelImportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Location\CoordinateManagerForm.cs" />
+    <Compile Include="Forms\Location\CoordinateManagerForm.Designer.cs">
+      <DependentUpon>CoordinateManagerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Location\DataCenterManagerForm.cs" />
+    <Compile Include="Forms\Location\DataCenterManagerForm.Designer.cs">
+      <DependentUpon>DataCenterManagerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Location\LocationManagerForm.cs" />
+    <Compile Include="Forms\Location\LocationManagerForm.Designer.cs">
+      <DependentUpon>LocationManagerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Rack\NewRackForm.cs" />
+    <Compile Include="Forms\Rack\NewRackForm.Designer.cs">
+      <DependentUpon>NewRackForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Rack\RackDetailManagerForm.cs" />
+    <Compile Include="Forms\Rack\RackDetailManagerForm.Designer.cs">
+      <DependentUpon>RackDetailManagerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Rack\RackManagerForm.cs" />
+    <Compile Include="Forms\Rack\RackManagerForm.Designer.cs">
+      <DependentUpon>RackManagerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Report\ReportForm.cs" />
+    <Compile Include="Forms\Report\ReportForm.Designer.cs">
+      <DependentUpon>ReportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\San\SanGroupManagerForm.cs" />
+    <Compile Include="Forms\San\SanGroupManagerForm.Designer.cs">
+      <DependentUpon>SanGroupManagerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\San\SanManagerForm.cs" />
+    <Compile Include="Forms\San\SanManagerForm.Designer.cs">
+      <DependentUpon>SanManagerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Switch\NewSwitchForm.cs" />
+    <Compile Include="Forms\Switch\NewSwitchForm.Designer.cs">
+      <DependentUpon>NewSwitchForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Switch\SwitchDetailManagerForm.cs" />
+    <Compile Include="Forms\Switch\SwitchDetailManagerForm.Designer.cs">
+      <DependentUpon>SwitchDetailManagerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Switch\SwitchManagerForm.cs" />
+    <Compile Include="Forms\Switch\SwitchManagerForm.Designer.cs">
+      <DependentUpon>SwitchManagerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Switch\SwitchTypeManagerForm.cs" />
+    <Compile Include="Forms\Switch\SwitchTypeManagerForm.Designer.cs">
+      <DependentUpon>SwitchTypeManagerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\System\ChangePasswordForm.cs" />
+    <Compile Include="Forms\System\ChangePasswordForm.Designer.cs">
+      <DependentUpon>ChangePasswordForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\System\DefaultsManagerForm.cs" />
+    <Compile Include="Forms\System\DefaultsManagerForm.Designer.cs">
+      <DependentUpon>DefaultsManagerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\System\DeviceManagerForm.cs" />
+    <Compile Include="Forms\System\DeviceManagerForm.Designer.cs">
+      <DependentUpon>DeviceManagerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\System\Home.cs" />
+    <Compile Include="Forms\System\Home.Designer.cs">
+      <DependentUpon>Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\System\Home.Menus.cs">
+      <DependentUpon>Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\System\LoginForm.cs" />
+    <Compile Include="Forms\System\LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\System\OSManagerForm.cs" />
+    <Compile Include="Forms\System\OSManagerForm.Designer.cs">
+      <DependentUpon>OSManagerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\System\SplashForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\System\SplashForm.Designer.cs">
+      <DependentUpon>SplashForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\VTPort\NewVTPortForm.cs" />
+    <Compile Include="Forms\VTPort\NewVTPortForm.Designer.cs">
+      <DependentUpon>NewVTPortForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\VTPort\VTPortDetailManagerForm.cs" />
+    <Compile Include="Forms\VTPort\VTPortDetailManagerForm.Designer.cs">
+      <DependentUpon>VTPortDetailManagerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\VTPort\VTPortManagerForm.cs" />
+    <Compile Include="Forms\VTPort\VTPortManagerForm.Designer.cs">
+      <DependentUpon>VTPortManagerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Import\Components\ImportComponentBase.cs" />
+    <Compile Include="Import\Components\ServerImportComponent.cs" />
+    <Compile Include="Import\Components\SwitchImportComponent.cs" />
+    <Compile Include="KabManDataSetDASD.cs">
+      <DependentUpon>KabManDataSetDASD.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="KabManDataSetDASD.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>KabManDataSetDASD.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Test\DataSetVisualizerForm.cs" />
+    <Compile Include="Test\DataSetVisualizerForm.Designer.cs">
+      <DependentUpon>DataSetVisualizerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\SwitchImportTest.cs" />
+    <Compile Include="Test\SwitchImportTest.Designer.cs">
+      <DependentUpon>SwitchImportTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Connection\ConnectionDetailForm.cs" />
+    <Compile Include="Forms\Connection\ConnectionDetailForm.Designer.cs">
+      <DependentUpon>ConnectionDetailForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Text\regex.cs" />
+    <Compile Include="Text\RegexAssistant.cs" />
+    <Compile Include="Windows\RefreshAssistant.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="XtraReports\NewConnectionReportDCC.cs" />
+    <Compile Include="XtraReports\NewConnectionReportDCC.Designer.cs">
+      <DependentUpon>NewConnectionReportDCC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XtraReports\NewConnectionReportServer.cs" />
+    <Compile Include="XtraReports\NewConnectionReportServer.Designer.cs">
+      <DependentUpon>NewConnectionReportServer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XtraReports\NewConnectionReportDASD.cs" />
+    <Compile Include="XtraReports\NewConnectionReportDASD.Designer.cs">
+      <DependentUpon>NewConnectionReportDASD.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Forms\Blech\BlechManagerForm.resx">
+      <DependentUpon>BlechManagerForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Blech\BlechTypeManagerForm.resx">
+      <DependentUpon>BlechTypeManagerForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Blech\BlechDetailManagerForm.resx">
+      <DependentUpon>BlechDetailManagerForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Blech\NewBlechForm.resx">
+      <DependentUpon>NewBlechForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Cable\CableCategoryManagerForm.resx">
+      <DependentUpon>CableCategoryManagerForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Cable\CableManagerForm.resx">
+      <DependentUpon>CableManagerForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Cable\CableModelManagerForm.resx">
+      <DependentUpon>CableModelManagerForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Connection\ActivateReservationForm.resx">
+      <DependentUpon>ActivateReservationForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Connection\NewConnectionForm.resx">
+      <DependentUpon>NewConnectionForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Connection\NewConnectionName.resx">
+      <DependentUpon>NewConnectionName.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Connection\SwitchDetailUpdateForm.resx">
+      <DependentUpon>SwitchDetailUpdateForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Dasd\DasdCuTypeManagerForm.resx">
+      <DependentUpon>DasdCuTypeManagerForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Dasd\DasdDetailManagerForm.resx">
+      <DependentUpon>DasdDetailManagerForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Dasd\DasdManagerForm.resx">
+      <DependentUpon>DasdManagerForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Dasd\NewDasdForm.resx">
+      <DependentUpon>NewDasdForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DataCenter\DCCDetailList.resx">
+      <DependentUpon>DCCDetailList.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DataCenter\DCCList.resx">
+      <DependentUpon>DCCList.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DataCenter\NewDCCForm.resx">
+      <DependentUpon>NewDCCForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Import\CollectedDasdModelEditorForm.resx">
+      <DependentUpon>CollectedDasdModelEditorForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Import\CollectedSwitchModelEditorForm.resx">
+      <DependentUpon>CollectedSwitchModelEditorForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Import\ExcelImportForm.resx">
+      <DependentUpon>ExcelImportForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Import\CollectedTrunkEditorForm.resx">
+      <DependentUpon>CollectedTrunkEditorForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Location\CoordinateManagerForm.resx">
+      <DependentUpon>CoordinateManagerForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Location\DataCenterManagerForm.resx">
+      <DependentUpon>DataCenterManagerForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Location\LocationManagerForm.resx">
+      <DependentUpon>LocationManagerForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Logs\Logs.resx">
+      <DependentUpon>Logs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Rack\NewRackForm.resx">
+      <DependentUpon>NewRackForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Rack\RackDetailManagerForm.resx">
+      <DependentUpon>RackDetailManagerForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Rack\RackManagerForm.resx">
+      <DependentUpon>RackManagerForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Report\ReportForm.resx">
+      <DependentUpon>ReportForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\San\SanGroupManagerForm.resx">
+      <DependentUpon>SanGroupManagerForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\San\SanManagerForm.resx">
+      <DependentUpon>SanManagerForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Switch\NewSwitchForm.resx">
+      <DependentUpon>NewSwitchForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Switch\SwitchDetailManagerForm.resx">
+      <DependentUpon>SwitchDetailManagerForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Switch\SwitchManagerForm.resx">
+      <DependentUpon>SwitchManagerForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Switch\SwitchTypeManagerForm.resx">
+      <DependentUpon>SwitchTypeManagerForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\System\ChangePasswordForm.resx">
+      <DependentUpon>ChangePasswordForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\System\DefaultsManagerForm.resx">
+      <DependentUpon>DefaultsManagerForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\System\DeviceManagerForm.resx">
+      <DependentUpon>DeviceManagerForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\System\Home.resx">
+      <DependentUpon>Home.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\System\LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\System\OSManagerForm.resx">
+      <DependentUpon>OSManagerForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\System\SplashForm.resx">
+      <DependentUpon>SplashForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\System\SQLManagement.resx">
+      <DependentUpon>SQLManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\User\UserLogs.resx">
+      <DependentUpon>UserLogs.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\User\UserManagerDetailForm.resx">
+      <DependentUpon>UserManagerDetailForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\User\UserManagerForm.resx">
+      <DependentUpon>UserManagerForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\VTPort\NewVTPortForm.resx">
+      <DependentUpon>NewVTPortForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\VTPort\VTPortDetailManagerForm.resx">
+      <DependentUpon>VTPortDetailManagerForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\VTPort\VTPortManagerForm.resx">
+      <DependentUpon>VTPortManagerForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\DataSetVisualizerForm.resx">
+      <DependentUpon>DataSetVisualizerForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\SwitchImportTest.resx">
+      <DependentUpon>SwitchImportTest.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Connection\ConnectionDetailForm.resx">
+      <DependentUpon>ConnectionDetailForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XtraReports\NewConnectionReportDCC.resx">
+      <DependentUpon>NewConnectionReportDCC.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XtraReports\NewConnectionReportServer.resx">
+      <DependentUpon>NewConnectionReportServer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XtraReports\NewConnectionReportDASD.resx">
+      <DependentUpon>NewConnectionReportDASD.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Components\Components.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\KabMan.Controls\KabMan.Controls.csproj">
+      <Project>{454C1B21-ECBC-4866-9464-94BD1CAA1E57}</Project>
+      <Name>KabMan.Controls</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\KabMan.Data\KabMan.Data.csproj">
+      <Project>{0203B3F8-09DC-473E-950E-CFE1DC47048B}</Project>
+      <Name>KabMan.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\KabMan.Resources\KabMan.Resources.csproj">
+      <Project>{F294D033-4D4F-4AC7-843B-6541273940CA}</Project>
+      <Name>KabMan.Resources</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\KabMan.Windows\KabMan.Windows.csproj">
+      <Project>{3DC8F698-A39A-406F-A17C-8750CB9F9C89}</Project>
+      <Name>KabMan.Windows</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="KabMan.ico" />
+    <None Include="KabManDataSetServerDCC.xsc">
+      <DependentUpon>KabManDataSetServerDCC.xsd</DependentUpon>
+    </None>
+    <None Include="KabManDataSetServerDCC.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>KabManDataSetServerDCC.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="KabManDataSetServerDCC.xss">
+      <DependentUpon>KabManDataSetServerDCC.xsd</DependentUpon>
+    </None>
+    <None Include="KabManDataSetServer.xsc">
+      <DependentUpon>KabManDataSetServer.xsd</DependentUpon>
+    </None>
+    <None Include="KabManDataSetServer.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>KabManDataSetServer.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="KabManDataSetServer.xss">
+      <DependentUpon>KabManDataSetServer.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\login.gif" />
+    <None Include="Resources\ManagerExit.png" />
+    <None Include="KabManDataSetDASD.xsc">
+      <DependentUpon>KabManDataSetDASD.xsd</DependentUpon>
+    </None>
+    <None Include="KabManDataSetDASD.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>KabManDataSetDASD.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="KabManDataSetDASD.xss">
+      <DependentUpon>KabManDataSetDASD.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\batch_process_search_16.png" />
+    <None Include="Resources\batch_process_add_16.png" />
+    <None Include="Resources\connect_list_19.png" />
+    <None Include="Resources\connect_add_19.png" />
+    <None Include="Resources\database_list_19.png" />
+    <None Include="Resources\database_add_19.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{B4F97281-0DBD-4835-9ED8-7DFB966E87FF}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

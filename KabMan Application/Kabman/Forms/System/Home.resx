@@ -1,0 +1,1555 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="homeBarManager.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>20, 11</value>
+  </metadata>
+  <data name="menuFile.Caption" xml:space="preserve">
+    <value>&amp;File</value>
+  </data>
+  <data name="itemUser.Caption" xml:space="preserve">
+    <value>User Manager</value>
+  </data>
+  <data name="itemExit.Caption" xml:space="preserve">
+    <value>E&amp;xit</value>
+  </data>
+  <data name="menuView.Caption" xml:space="preserve">
+    <value>&amp;View</value>
+  </data>
+  <data name="itemServerWindow.Caption" xml:space="preserve">
+    <value>&amp;Server Window</value>
+  </data>
+  <data name="itemSwitchWindow.Caption" xml:space="preserve">
+    <value>S&amp;witch Window</value>
+  </data>
+  <data name="itemDASDWindow.Caption" xml:space="preserve">
+    <value>&amp;DASD Window</value>
+  </data>
+  <data name="subToolbars.Caption" xml:space="preserve">
+    <value>T&amp;oolbars</value>
+  </data>
+  <data name="menuManagement.Caption" xml:space="preserve">
+    <value>&amp;Management</value>
+  </data>
+  <data name="subSystem.Caption" xml:space="preserve">
+    <value>Syste&amp;m</value>
+  </data>
+  <data name="itemSystemDefaultsManager.Caption" xml:space="preserve">
+    <value>&amp;Default Values</value>
+  </data>
+  <data name="itemDeviceManager.Caption" xml:space="preserve">
+    <value>De&amp;vices</value>
+  </data>
+  <data name="itemOperatingSystemManager.Caption" xml:space="preserve">
+    <value>&amp;Operating Systems</value>
+  </data>
+  <data name="subLocation.Caption" xml:space="preserve">
+    <value>&amp;Location</value>
+  </data>
+  <data name="itemLocationManager.Caption" xml:space="preserve">
+    <value>&amp;Location Management</value>
+  </data>
+  <data name="itemDataCenterManager.Caption" xml:space="preserve">
+    <value>&amp;Data Center Management</value>
+  </data>
+  <data name="itemCoordinateManager.Caption" xml:space="preserve">
+    <value>&amp;Coordinate Management</value>
+  </data>
+  <data name="subCable.Caption" xml:space="preserve">
+    <value>&amp;Cable</value>
+  </data>
+  <data name="itemCableCategoryManager.Caption" xml:space="preserve">
+    <value>Ca&amp;ble Category Management</value>
+  </data>
+  <data name="itemCableModelManager.Caption" xml:space="preserve">
+    <value>Cable &amp;Model Management</value>
+  </data>
+  <data name="itemCableManager.Caption" xml:space="preserve">
+    <value>&amp;Cable Management</value>
+  </data>
+  <data name="subSan.Caption" xml:space="preserve">
+    <value>&amp;Fabric</value>
+  </data>
+  <data name="itemSanGroupManager.Caption" xml:space="preserve">
+    <value>San &amp;Group Management</value>
+  </data>
+  <data name="itemSanManager.Caption" xml:space="preserve">
+    <value>San Management</value>
+  </data>
+  <data name="subBlech.Caption" xml:space="preserve">
+    <value>&amp;Blech</value>
+  </data>
+  <data name="itemNewBlech.Caption" xml:space="preserve">
+    <value>&amp;New Blech</value>
+  </data>
+  <data name="itemBlechManager.Caption" xml:space="preserve">
+    <value>Blech &amp;Management</value>
+  </data>
+  <data name="itemBlechTypeManager.Caption" xml:space="preserve">
+    <value>Blech &amp;Type Manager</value>
+  </data>
+  <data name="subServer.Caption" xml:space="preserve">
+    <value>Ra&amp;ck</value>
+  </data>
+  <data name="itemNewServer.Caption" xml:space="preserve">
+    <value>&amp;New Rack</value>
+  </data>
+  <data name="itemServerManager.Caption" xml:space="preserve">
+    <value>&amp;Rack Management</value>
+  </data>
+  <data name="subSwitch.Caption" xml:space="preserve">
+    <value>S&amp;witch</value>
+  </data>
+  <data name="itemNewSwitch.Caption" xml:space="preserve">
+    <value>&amp;New Switch</value>
+  </data>
+  <data name="itemSwitchTypeManager.Caption" xml:space="preserve">
+    <value>Switch &amp;Type Manager</value>
+  </data>
+  <data name="itemSwitchManager.Caption" xml:space="preserve">
+    <value>Switch &amp;Manager</value>
+  </data>
+  <data name="subVTPort.Caption" xml:space="preserve">
+    <value>VT&amp;Port</value>
+  </data>
+  <data name="itemNewVTPort.Caption" xml:space="preserve">
+    <value>&amp;New VTPort</value>
+  </data>
+  <data name="itemVTPortManager.Caption" xml:space="preserve">
+    <value>VTPort &amp;Manager</value>
+  </data>
+  <data name="itemVTPortDetails.Caption" xml:space="preserve">
+    <value>VTPort &amp;Details</value>
+  </data>
+  <data name="subConnection.Caption" xml:space="preserve">
+    <value>Con&amp;nection</value>
+  </data>
+  <data name="itemNewConnection.Caption" xml:space="preserve">
+    <value>&amp;New Connection</value>
+  </data>
+  <data name="itemConnectionList.Caption" xml:space="preserve">
+    <value>Connection &amp;List</value>
+  </data>
+  <data name="subDasd.Caption" xml:space="preserve">
+    <value>&amp;DASD</value>
+  </data>
+  <data name="itemDasdCuTypeManager.Caption" xml:space="preserve">
+    <value>DASD &amp;CuType Manager</value>
+  </data>
+  <data name="itemDasdManager.Caption" xml:space="preserve">
+    <value>DASD &amp;Manager</value>
+  </data>
+  <data name="itemNewDasd.Caption" xml:space="preserve">
+    <value>&amp;New DASD</value>
+  </data>
+  <data name="subDataCenterConnection.Caption" xml:space="preserve">
+    <value>Data Center Connection</value>
+  </data>
+  <data name="itemDCCNewConnection.Caption" xml:space="preserve">
+    <value>&amp;New Connection</value>
+  </data>
+  <data name="itemDCCConnectionManager.Caption" xml:space="preserve">
+    <value>Connection &amp;Manager</value>
+  </data>
+  <data name="menuReports.Caption" xml:space="preserve">
+    <value>&amp;Reports</value>
+  </data>
+  <data name="itemCategorizedReport.Caption" xml:space="preserve">
+    <value>&amp;Categorized Report</value>
+  </data>
+  <data name="menuTools.Caption" xml:space="preserve">
+    <value>To&amp;ols</value>
+  </data>
+  <data name="itemImport.Caption" xml:space="preserve">
+    <value>I&amp;mport</value>
+  </data>
+  <data name="itemExport.Caption" xml:space="preserve">
+    <value>E&amp;xport</value>
+  </data>
+  <data name="barButtonItem2.Caption" xml:space="preserve">
+    <value>&amp;Backup</value>
+  </data>
+  <data name="barButtonItem3.Caption" xml:space="preserve">
+    <value>&amp;Restore</value>
+  </data>
+  <data name="barButtonItem4.Caption" xml:space="preserve">
+    <value>&amp;Application Logs</value>
+  </data>
+  <data name="menuHelp.Caption" xml:space="preserve">
+    <value>&amp;Help</value>
+  </data>
+  <data name="itemHelp.Caption" xml:space="preserve">
+    <value>&amp;Help</value>
+  </data>
+  <data name="itemAbout.Caption" xml:space="preserve">
+    <value>&amp;About KabMan</value>
+  </data>
+  <data name="menuWindow.Caption" xml:space="preserve">
+    <value>&amp;Window</value>
+  </data>
+  <data name="subWindows.Caption" xml:space="preserve">
+    <value>&amp;Windows</value>
+  </data>
+  <data name="barMainMenu.Text" xml:space="preserve">
+    <value>Main menu</value>
+  </data>
+  <data name="statusUserName.Caption" xml:space="preserve">
+    <value>User : {0}</value>
+  </data>
+  <data name="barStatusBar.Text" xml:space="preserve">
+    <value>Status bar</value>
+  </data>
+  <data name="toolNewServer.AccessibleDescription" xml:space="preserve">
+    <value>New Server</value>
+  </data>
+  <data name="toolNewServer.Caption" xml:space="preserve">
+    <value>New Server</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="toolNewServer.Glyph" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABEAAAASCAYAAAC9+TVUAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAAK9QAA
+        CvUBbxZRbgAAApxJREFUOE9j/P//PwPFAGQIIcwQyMBr2s5T6jRBcI/TBIH9Fp08PVKFDPIwfcgGsAMF
+        xYBYDogVgFgFiFU3nl1l4DdbaWnNYf1j3dckD7VfFttfsl9tv9MUwTVKJQzKYJ9ATRNZv379gba2tv+N
+        jY3/a2tr/1dWVv4vKSn5H1rt9L9kjf7/lr1y/5edyP+97l7OtcITLPvTd0ntt+zjnMLmw8ABM8Rq6tSp
+        j/Lz8/9nZmb+T05O/h8bG/s/MCzwv0+b0v/yzbL/81bL/99yePn/Ky8PP47cyb8/YhvHftvJnPvVSxiN
+        YYaYTZ48+SG6IX7hPv99esT/561X+X/6/JH/R04e+P/t1+eHN9+d2O+8kHO/WS/TfoM65lC4IRMmTMAw
+        xD/c979nh9T/pCVy/1MnBvzfsG/F/7MPDzxMXeq+32YW+37zPtb9BjVMbnBD+vr6MAwJDQv971yi/j94
+        usx/yzah/1M3NP9fcXbiQ7l2hv32s7n3W/Sxb9YqZBDDa0h4ePh/ryiH/06N0v/9Jsr/t28U+x+2SPuh
+        6wLB/TaTuPcbNjGFwmPn1q1bZosWLcJwCciQwMDA/67h1v9ti4GG1Er/D5+r99Cql2urYTNjqFYuFyPc
+        kOPHj5stW7YMpyE+Pj7/XTyc/tt4m/yfu6tvkUougyhyAgV7hxhD3Nzc/js4OPy/fft2O3oKBxty9OhR
+        s+UEXAIz5O7du9gNOXz4sNmypUvxeoegSw4ePGi6ePHiB+iJDRawoDCBGXLt2rU2rN45deqU2cKFC4ly
+        yfXr1zG9AyxLmIAZzXXp0qX3CbkkNTX137Zt2yYB9XCgxA5QgBuINSIiIrJ7e3unAPNQ/8SJE/uB2QAF
+        z5gxY2pBQUGdvLy8M1C9JLIhAMtUluvm3P2MAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="toolTipTitleItem1.Text" xml:space="preserve">
+    <value>New Rack</value>
+  </data>
+  <data name="toolServerManager.Caption" xml:space="preserve">
+    <value>List Servers</value>
+  </data>
+  <data name="toolServerManager.Glyph" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABEAAAASCAYAAAC9+TVUAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAAK9QAA
+        CvUBbxZRbgAAAixJREFUOE+llE2IEmEYx7cudesSERtEh4Vu0qGG6JKX9RB2kCAjEgLx4MmLBB4MpHBZ
+        EJUVLxse1MZEFJ1VJxd9ZVR0/ChNIp38nBbLQ3h0L4JP7wx9+FW74Qv/y8s7v/d5f8/DnAGAjbWXAFk3
+        /wR8fXKd/q69jUaaG2j/6aOHm8/bkis7FslNtCm58Hbj8q/LZyHn8OYlnKs413C2vj27lz/eVRWmLx/k
+        DS9eZe+aK6ntvf3Dx6zsUEnf37VYLFuijp+0i+FwmDGbzWAymcBoNILBYIBoPA6tVgu4Jge19++AzTGT
+        Hsd9an74jLiPHEomk2gWcsfpdB7pdDrQarWgVqtBpVJBJEIBdXAAXu9rHC+4XC7IZrNH8XgcFYtFVCgU
+        5iCEw+H4sggJhUJQqVQAH4Z8Pg8Mw8BwOOT7/T4aDAaIZdl5iN1uX4IEg0FIpVIQjUYhFouJ6fV6fLPZ
+        RBiGqtXqPMRqtS5BAoEAJBIJ/KwIUBQlwni8Op0OGo1GqF6vnwzx+/2CA0AIQTqdhkwmA+PxmJ9MJmg6
+        naJarfYHgjtAeDyepUpsNhuQJClKFYLPCI74UqmEhGBn1O/uYEGEz+dbgiiVSlAoFCCXy0Emk4FUKoVu
+        t7uzOOHinPwPpN1ur4bg9hFv1q0kl8sRPpI81XP+Wgm2fguL4xeHbZWTRqNhXumkXC4Tbrf7VJXgQVt2
+        gn9IZ/V6/TZuZf+kSjQazZSm6T38zfnZan4A28IAQInve6wAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="toolTipTitleItem2.Text" xml:space="preserve">
+    <value>Rack Detail</value>
+  </data>
+  <data name="toolNewSwitch.Caption" xml:space="preserve">
+    <value>New Switch</value>
+  </data>
+  <data name="toolNewSwitch.Glyph" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAYAAAByUDbMAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAAK9QAA
+        CvUBbxZRbgAAAwJJREFUOE+tlG1Ik0EAxx/X1ObUKVGEQbj1ymjNiGqKURoR9AKVQYkRTAh7QWImrajZ
+        3AyZ4GalZKvozUKL6kMjm2DidG5LnR+01jlZao2pzaY2Y7kP/x4fbEgMM/Dgxx3H3e/+98JFAKAWrEzL
+        For/ElGHKN6W0thrmRWJHzMrEohEE3s/SUat/hNm3rKlp6glO28mvJQ3ryOaD0tJafcyUti0lmRWJrYI
+        Cqn1zHHNd4ubyxYXyU0riM4ZReq/niNP+44TmZVN8hqSSKqWUxu1n+KEZA6Ho9DpdLpdLpd7YGDAPTg4
+        GKKrp8tz9kXarxsfhUFN18agc7TdZx9qINlGHjn2ZjHZfpND1hVGpM2WvaclcLvd8Hg8GB4eDmHrsSD3
+        +RqUdW+B/5cXoz+Ggz+nfvSS71ay6yGHbC1nkZSiRVJGlpGRwaNTBaYlXq8XPp8P4+PjIT64upH7TASF
+        RQzV6zNweOywuN66Tj7ZQ9L10WSbNpKkXGEdZGR6vX5Df38/RkZGGNHExAT8fj8mJycZRr97cfl1DvKN
+        G3GwdhWMn2pwz6L+srKUIjvucIlEG90ulFFJjMxgMGQPDQ1hbGyMmRwIBDA1NYVgMMgw3bb1NSH7kQin
+        DZtx7LEQu6uXfdv9IJGk3+CSTSqWNHSbtXV11a2trTCbzbDZbGjv6EBnZyeD3W5n6g6671H9LZy4m47D
+        eiH2VfH9aeUxnZvUEVJhfgwrJNNoNLb6hga0Wa2wWiywzGCmFzA1N8NkMqFlBmPjG9yu0+F8Wd7X1fnU
+        8tlPi9mmJDXVJbtwAaa2NjQ1NuLdHLTR6YuVSkgkkpG/3ygjKygo+Cy/dAmqkhKUqNVQz6AqLoby6lUo
+        6cl/mBZdlMshl8vDy8Rised/k4lEIl/YZAKBoHfvgQNQqlQoUiigmAMVPeZIVhb4fP5gWBknJqbmaE4O
+        rldVoUKrhW4WWro9m8rKSuRKpeByua/CyiIjIzPj4+K0Aj6/PDk5eU7oROW8+Hgdm83eE1Y235/jX+N+
+        AytVmA+1WBCOAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="toolTipTitleItem3.Text" xml:space="preserve">
+    <value>New Switch</value>
+  </data>
+  <data name="toolListSwitch.Caption" xml:space="preserve">
+    <value>List Switches</value>
+  </data>
+  <data name="toolListSwitch.Glyph" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAYAAAByUDbMAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAAK9QAA
+        CvUBbxZRbgAAAr9JREFUOE+tlE9ImnEYx7fIU+204yDtXLCdapddXEyiW6cFWxA7tEbDWrlGZmbattSi
+        NdhhbRA4bFCaQVmvWoZlJGHapUz6QymhDGe+mZdh3z3vbzDa3rr5wsPvfXm+7+f5fp8X3psAbhTsEmCF
+        qoKBWMJCufoHtrOzc293d1cbjUaH4vG4MZ1OGzc2Nkw2m80cDAZNqVTKeHx8bBT6pNOT/uH/Rv46297e
+        /ry/v/8jFoudJZNJfm1tjXc6nTzHcbzL5eK3trb4RCLBC33SpSORyNyVMPqaEpoUJyF4nsf6+jo2Nzdx
+        dHTEzuXlZRAcpAE5hqAjh2dKpfL2ZSBz1tHRcWdvb+8XOcLJyQlWV1dBUZHNZhkgEAjAt7ICio2fqRQE
+        3cHBQX5sbOyuCGaxWB7QyxeCKwEWCoWYw1wux2ACfNpmg8ftxtn5OTKZDNPRGp6IYA6Ho5P2wNwIU+fn
+        54UYyOfz7LRarRgZGYFncRFZgsVId3h4CI/H80kEm6HLT9O9Xi+L9H1iggH8fj+cc3PQ6/VQ9etgcTgQ
+        pqjCDn0+H+jjBESwl62t0a/j41ihJQuwUDAIbmEBtqkp2CcnYaeI3+x29A8P44PZjHA4zIa1tbUlRLBH
+        CkX8hVIJB7lw0144irlEkWbIyRTBvEtLcDudeN3ejscNDWxIb28vamtrUyLY08bGRHNLC3pIoNPpoNVq
+        /xQ9a3p6oFarodFo0NfXh+fNzaisrMT96mo0NTWlRTBqJp+RaHp2Fm6Xi+3punJxHD6OjqKqqgoVFRW8
+        CCaVySLympqLVyoVc/Gmq4tV1xWl7u6GqrMTcrkcUqk0JoIVFRV9UdTVnWoNhpxpcDD3bmAg9/ZSDdA9
+        K+obqW+gs76+/pTes4pgEolEXlpS8l5aVjZcXl5ulslkQ9eV0C8j3a3S0sHi4mKFCFao39Bv0dfOJ9Bl
+        8CkAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="toolTipTitleItem4.Text" xml:space="preserve">
+    <value>Switch Detail</value>
+  </data>
+  <data name="toolNewDASD.Caption" xml:space="preserve">
+    <value>New DASD</value>
+  </data>
+  <data name="toolTipTitleItem5.Text" xml:space="preserve">
+    <value>New DASD</value>
+  </data>
+  <data name="toolListDASD.Caption" xml:space="preserve">
+    <value>List DASDs</value>
+  </data>
+  <data name="toolTipTitleItem6.Text" xml:space="preserve">
+    <value>DASD Detail</value>
+  </data>
+  <data name="toolNewConnection.Caption" xml:space="preserve">
+    <value>New Connection</value>
+  </data>
+  <data name="toolTipTitleItem7.Text" xml:space="preserve">
+    <value>New Connection </value>
+  </data>
+  <data name="toolListConnection.Caption" xml:space="preserve">
+    <value>List Connections</value>
+  </data>
+  <data name="toolTipTitleItem8.Text" xml:space="preserve">
+    <value>Connection Details</value>
+  </data>
+  <data name="toolNewDataCenterConnection.Caption" xml:space="preserve">
+    <value>New DataCenter Connection</value>
+  </data>
+  <data name="toolTipTitleItem9.Text" xml:space="preserve">
+    <value>Data Center Connection</value>
+  </data>
+  <data name="toolListDataCenterConnection.Caption" xml:space="preserve">
+    <value>List DataCenter Connections</value>
+  </data>
+  <data name="toolTipTitleItem10.Text" xml:space="preserve">
+    <value>Data Center Connection Details</value>
+  </data>
+  <data name="barToolbar.Text" xml:space="preserve">
+    <value>Toolbar</value>
+  </data>
+  <assembly alias="DevExpress.XtraBars.v9.1" name="DevExpress.XtraBars.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073" />
+  <data name="homeBarManager.Categories" type="DevExpress.XtraBars.BarManagerCategory, DevExpress.XtraBars.v9.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFtEZXZFeHByZXNzLlh0cmFCYXJzLnY5LjEsIFZlcnNpb249OS4x
+        LjMuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj01Mzc3YzhlM2I3MmI0MDczBQEAAAAm
+        RGV2RXhwcmVzcy5YdHJhQmFycy5CYXJNYW5hZ2VyQ2F0ZWdvcnkDAAAABE5hbWUER3VpZAdWaXNpYmxl
+        AQMAC1N5c3RlbS5HdWlkAQIAAAAGAwAAAAdQcm9ncmFtBPz///8LU3lzdGVtLkd1aWQLAAAAAl9hAl9i
+        Al9jAl9kAl9lAl9mAl9nAl9oAl9pAl9qAl9rAAAAAAAAAAAAAAAIBwcCAgICAgICAkVFmK6LnQRGq88w
+        AxTQwIkBCw==
+</value>
+  </data>
+  <data name="homeBarManager.Categories1" type="DevExpress.XtraBars.BarManagerCategory, DevExpress.XtraBars.v9.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFtEZXZFeHByZXNzLlh0cmFCYXJzLnY5LjEsIFZlcnNpb249OS4x
+        LjMuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj01Mzc3YzhlM2I3MmI0MDczBQEAAAAm
+        RGV2RXhwcmVzcy5YdHJhQmFycy5CYXJNYW5hZ2VyQ2F0ZWdvcnkDAAAABE5hbWUER3VpZAdWaXNpYmxl
+        AQMAC1N5c3RlbS5HdWlkAQIAAAAGAwAAAApNYW5hZ2VtZW50BPz///8LU3lzdGVtLkd1aWQLAAAAAl9h
+        Al9iAl9jAl9kAl9lAl9mAl9nAl9oAl9pAl9qAl9rAAAAAAAAAAAAAAAIBwcCAgICAgICAkTEScJ20UJI
+        v9DLx99pvMgBCw==
+</value>
+  </data>
+  <metadata name="homeBarDockController.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>740, 11</value>
+  </metadata>
+  <data name="&gt;&gt;barDockControlTop.Name" xml:space="preserve">
+    <value>barDockControlTop</value>
+  </data>
+  <data name="&gt;&gt;barDockControlTop.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarDockControl, DevExpress.XtraBars.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073</value>
+  </data>
+  <data name="&gt;&gt;barDockControlTop.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;barDockControlTop.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;barDockControlBottom.Name" xml:space="preserve">
+    <value>barDockControlBottom</value>
+  </data>
+  <data name="&gt;&gt;barDockControlBottom.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarDockControl, DevExpress.XtraBars.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073</value>
+  </data>
+  <data name="&gt;&gt;barDockControlBottom.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;barDockControlBottom.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;barDockControlLeft.Name" xml:space="preserve">
+    <value>barDockControlLeft</value>
+  </data>
+  <data name="&gt;&gt;barDockControlLeft.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarDockControl, DevExpress.XtraBars.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073</value>
+  </data>
+  <data name="&gt;&gt;barDockControlLeft.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;barDockControlLeft.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;barDockControlRight.Name" xml:space="preserve">
+    <value>barDockControlRight</value>
+  </data>
+  <data name="&gt;&gt;barDockControlRight.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarDockControl, DevExpress.XtraBars.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073</value>
+  </data>
+  <data name="&gt;&gt;barDockControlRight.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;barDockControlRight.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <metadata name="homeDockManager.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>461, 11</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>43</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>877, 586</value>
+  </data>
+  <data name="treeSwitchValue.Caption" xml:space="preserve">
+    <value>Switch</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="treeSwitchValue.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="treeSwitchValue.VisibleIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="treeSwitchValue.Width" type="System.Int32, mscorlib">
+    <value>92</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="CSwitchTree.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="CSwitchTree.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <metadata name="treeImageCollection.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>312, 11</value>
+  </metadata>
+  <assembly alias="DevExpress.Utils.v9.1" name="DevExpress.Utils.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073" />
+  <data name="treeImageCollection.ImageStream" type="DevExpress.Utils.ImageCollectionStreamer, DevExpress.Utils.v9.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFhEZXZFeHByZXNzLlV0aWxzLnY5LjEsIFZlcnNpb249OS4xLjMu
+        MCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj01Mzc3YzhlM2I3MmI0MDczDAMAAABRU3lz
+        dGVtLkRyYXdpbmcsIFZlcnNpb249Mi4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tl
+        bj1iMDNmNWY3ZjExZDUwYTNhBQEAAAAoRGV2RXhwcmVzcy5VdGlscy5JbWFnZUNvbGxlY3Rpb25TdHJl
+        YW1lcgIAAAAJSW1hZ2VTaXplBERhdGEEBxNTeXN0ZW0uRHJhd2luZy5TaXplAwAAAAICAAAABfz///8T
+        U3lzdGVtLkRyYXdpbmcuU2l6ZQIAAAAFd2lkdGgGaGVpZ2h0AAAICAMAAAAQAAAAEAAAAAkFAAAADwUA
+        AACiCgAAAi8DAACJUE5HDQoaCgAAAA1JSERSAAAAEAAAABAIBgAAAB/z/2EAAAABc1JHQgCuzhzpAAAA
+        BGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAA
+        CXBIWXMAAAraAAAK2gGL8N7gAAACmElEQVQ4T62T3U9SARjGjzfe2E2tf6Bu3LprXXTjVm1daNkaJBrT
+        sAKGWorADAsRFVMx1I4cFPwkZKg7IioffkCrMZ25xVT8IFswZpszmmvlKVg2n6iLbo7d+dy/v+f37t1L
+        EMcVvZ6qs9tpUxdlme6ibPNd1MiKkRqNGsixz2SHI1GvsS5LxLo2UbHu+pGdbrf/WyTyE9vbwM7OAWKx
+        JMLhBEKhBJaWGMzN7WJ4OAyt1nVYVTUWZEEmHLPMrwMgHt9HMLh/GAisw+8PYnJyHnb7DMzmcZAkDZ1u
+        FA9KnydZAJN1mkEqye/JFGAPPt9LuN2vQNM+WK1e9JqnYCAd0LeMoExyBKDR4GGudMfx5t0XREN7CMzM
+        IuD1wT/uhcs2iYFuJxqeTaCk0YVCkZFtQPV5mY+7P3BKvoqs1i2cLl9EmuQtCOEKCMkmCPkm0tTrOKlZ
+        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
+</value>
+  </data>
+  <data name="CSwitchTree.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 480</value>
+  </data>
+  <data name="CSwitchTree.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <metadata name="homeTooltipController.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>589, 11</value>
+  </metadata>
+  <data name="&gt;&gt;CSwitchTree.Name" xml:space="preserve">
+    <value>CSwitchTree</value>
+  </data>
+  <data name="&gt;&gt;CSwitchTree.Type" xml:space="preserve">
+    <value>DevExpress.XtraTreeList.TreeList, DevExpress.XtraTreeList.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073</value>
+  </data>
+  <data name="&gt;&gt;CSwitchTree.Parent" xml:space="preserve">
+    <value>dockSwitchContainer</value>
+  </data>
+  <data name="&gt;&gt;CSwitchTree.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="dockSwitchContainer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="dockSwitchContainer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 480</value>
+  </data>
+  <data name="dockSwitchContainer.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;dockSwitchContainer.Name" xml:space="preserve">
+    <value>dockSwitchContainer</value>
+  </data>
+  <data name="&gt;&gt;dockSwitchContainer.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Docking.ControlContainer, DevExpress.XtraBars.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073</value>
+  </data>
+  <data name="&gt;&gt;dockSwitchContainer.Parent" xml:space="preserve">
+    <value>dockSwitch</value>
+  </data>
+  <data name="&gt;&gt;dockSwitchContainer.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="dockSwitch.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 25</value>
+  </data>
+  <data name="dockSwitch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 480</value>
+  </data>
+  <data name="dockSwitch.TabText" xml:space="preserve">
+    <value>Switch</value>
+  </data>
+  <data name="dockSwitch.Text" xml:space="preserve">
+    <value>Available Switch</value>
+  </data>
+  <data name="&gt;&gt;dockSwitch.Name" xml:space="preserve">
+    <value>dockSwitch</value>
+  </data>
+  <data name="&gt;&gt;dockSwitch.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Docking.DockPanel, DevExpress.XtraBars.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073</value>
+  </data>
+  <data name="&gt;&gt;dockSwitch.Parent" xml:space="preserve">
+    <value>panelContainer1</value>
+  </data>
+  <data name="&gt;&gt;dockSwitch.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="treeServerValue.Caption" xml:space="preserve">
+    <value>Server</value>
+  </data>
+  <data name="treeServerValue.MinWidth" type="System.Int32, mscorlib">
+    <value>56</value>
+  </data>
+  <data name="treeServerValue.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="treeServerValue.VisibleIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="treeSanValue.Caption" xml:space="preserve">
+    <value>San Value</value>
+  </data>
+  <data name="CServerTree.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="CServerTree.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="CServerTree.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 480</value>
+  </data>
+  <data name="CServerTree.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;CServerTree.Name" xml:space="preserve">
+    <value>CServerTree</value>
+  </data>
+  <data name="&gt;&gt;CServerTree.Type" xml:space="preserve">
+    <value>DevExpress.XtraTreeList.TreeList, DevExpress.XtraTreeList.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073</value>
+  </data>
+  <data name="&gt;&gt;CServerTree.Parent" xml:space="preserve">
+    <value>dockServerContainer</value>
+  </data>
+  <data name="&gt;&gt;CServerTree.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="dockServerContainer.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt</value>
+  </data>
+  <data name="dockServerContainer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="dockServerContainer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 480</value>
+  </data>
+  <data name="dockServerContainer.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;dockServerContainer.Name" xml:space="preserve">
+    <value>dockServerContainer</value>
+  </data>
+  <data name="&gt;&gt;dockServerContainer.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Docking.ControlContainer, DevExpress.XtraBars.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073</value>
+  </data>
+  <data name="&gt;&gt;dockServerContainer.Parent" xml:space="preserve">
+    <value>dockServer</value>
+  </data>
+  <data name="&gt;&gt;dockServerContainer.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="dockServer.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt</value>
+  </data>
+  <data name="dockServer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 25</value>
+  </data>
+  <data name="dockServer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 480</value>
+  </data>
+  <data name="dockServer.TabText" xml:space="preserve">
+    <value>Racks</value>
+  </data>
+  <data name="dockServer.Text" xml:space="preserve">
+    <value>Available Racks</value>
+  </data>
+  <data name="&gt;&gt;dockServer.Name" xml:space="preserve">
+    <value>dockServer</value>
+  </data>
+  <data name="&gt;&gt;dockServer.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Docking.DockPanel, DevExpress.XtraBars.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073</value>
+  </data>
+  <data name="&gt;&gt;dockServer.Parent" xml:space="preserve">
+    <value>panelContainer1</value>
+  </data>
+  <data name="&gt;&gt;dockServer.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="treeDASDValue.Caption" xml:space="preserve">
+    <value>DASD</value>
+  </data>
+  <data name="treeDASDValue.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="treeDASDValue.VisibleIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="treeDASDValue.Width" type="System.Int32, mscorlib">
+    <value>92</value>
+  </data>
+  <data name="treeDasdSanValue.Caption" xml:space="preserve">
+    <value>treeListColumn1</value>
+  </data>
+  <data name="CDASDTree.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="CDASDTree.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="CDASDTree.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 480</value>
+  </data>
+  <data name="CDASDTree.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;CDASDTree.Name" xml:space="preserve">
+    <value>CDASDTree</value>
+  </data>
+  <data name="&gt;&gt;CDASDTree.Type" xml:space="preserve">
+    <value>DevExpress.XtraTreeList.TreeList, DevExpress.XtraTreeList.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073</value>
+  </data>
+  <data name="&gt;&gt;CDASDTree.Parent" xml:space="preserve">
+    <value>dockDASDContainer</value>
+  </data>
+  <data name="&gt;&gt;CDASDTree.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="dockDASDContainer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="dockDASDContainer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 480</value>
+  </data>
+  <data name="dockDASDContainer.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;dockDASDContainer.Name" xml:space="preserve">
+    <value>dockDASDContainer</value>
+  </data>
+  <data name="&gt;&gt;dockDASDContainer.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Docking.ControlContainer, DevExpress.XtraBars.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073</value>
+  </data>
+  <data name="&gt;&gt;dockDASDContainer.Parent" xml:space="preserve">
+    <value>dockDASD</value>
+  </data>
+  <data name="&gt;&gt;dockDASDContainer.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="dockDASD.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 25</value>
+  </data>
+  <data name="dockDASD.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 480</value>
+  </data>
+  <data name="dockDASD.TabText" xml:space="preserve">
+    <value>DASD</value>
+  </data>
+  <data name="dockDASD.Text" xml:space="preserve">
+    <value>Available DASD</value>
+  </data>
+  <data name="&gt;&gt;dockDASD.Name" xml:space="preserve">
+    <value>dockDASD</value>
+  </data>
+  <data name="&gt;&gt;dockDASD.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Docking.DockPanel, DevExpress.XtraBars.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073</value>
+  </data>
+  <data name="&gt;&gt;dockDASD.Parent" xml:space="preserve">
+    <value>panelContainer1</value>
+  </data>
+  <data name="&gt;&gt;dockDASD.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="treeDCCValue.Caption" xml:space="preserve">
+    <value>DCC</value>
+  </data>
+  <data name="treeDCCValue.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="treeDCCValue.VisibleIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="treeDCCValue.Width" type="System.Int32, mscorlib">
+    <value>92</value>
+  </data>
+  <data name="CDCCtree.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="CDCCtree.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="CDCCtree.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 480</value>
+  </data>
+  <data name="CDCCtree.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;CDCCtree.Name" xml:space="preserve">
+    <value>CDCCtree</value>
+  </data>
+  <data name="&gt;&gt;CDCCtree.Type" xml:space="preserve">
+    <value>DevExpress.XtraTreeList.TreeList, DevExpress.XtraTreeList.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073</value>
+  </data>
+  <data name="&gt;&gt;CDCCtree.Parent" xml:space="preserve">
+    <value>dockPanel1_Container</value>
+  </data>
+  <data name="&gt;&gt;CDCCtree.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="dockPanel1_Container.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="dockPanel1_Container.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 480</value>
+  </data>
+  <data name="dockPanel1_Container.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;dockPanel1_Container.Name" xml:space="preserve">
+    <value>dockPanel1_Container</value>
+  </data>
+  <data name="&gt;&gt;dockPanel1_Container.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Docking.ControlContainer, DevExpress.XtraBars.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073</value>
+  </data>
+  <data name="&gt;&gt;dockPanel1_Container.Parent" xml:space="preserve">
+    <value>dockDCC</value>
+  </data>
+  <data name="&gt;&gt;dockPanel1_Container.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="dockDCC.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 25</value>
+  </data>
+  <data name="dockDCC.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 480</value>
+  </data>
+  <data name="dockDCC.TabText" xml:space="preserve">
+    <value>DCC</value>
+  </data>
+  <data name="dockDCC.Text" xml:space="preserve">
+    <value>Data Center Connection</value>
+  </data>
+  <data name="&gt;&gt;dockDCC.Name" xml:space="preserve">
+    <value>dockDCC</value>
+  </data>
+  <data name="&gt;&gt;dockDCC.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Docking.DockPanel, DevExpress.XtraBars.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073</value>
+  </data>
+  <data name="&gt;&gt;dockDCC.Parent" xml:space="preserve">
+    <value>panelContainer1</value>
+  </data>
+  <data name="&gt;&gt;dockDCC.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="panelContainer1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 55</value>
+  </data>
+  <data name="panelContainer1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>241, 508</value>
+  </data>
+  <data name="panelContainer1.Text" xml:space="preserve">
+    <value>panelContainer1</value>
+  </data>
+  <data name="&gt;&gt;panelContainer1.Name" xml:space="preserve">
+    <value>panelContainer1</value>
+  </data>
+  <data name="&gt;&gt;panelContainer1.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Docking.DockPanel, DevExpress.XtraBars.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073</value>
+  </data>
+  <data name="&gt;&gt;panelContainer1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panelContainer1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>400, 300</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>KabMan</value>
+  </data>
+  <data name="&gt;&gt;homeBarManager.Name" xml:space="preserve">
+    <value>homeBarManager</value>
+  </data>
+  <data name="&gt;&gt;homeBarManager.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarManager, DevExpress.XtraBars.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073</value>
+  </data>
+  <data name="&gt;&gt;barMainMenu.Name" xml:space="preserve">
+    <value>barMainMenu</value>
+  </data>
+  <data name="&gt;&gt;barMainMenu.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Bar, DevExpress.XtraBars.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073</value>
+  </data>
+  <data name="&gt;&gt;menuFile.Name" xml:space="preserve">
+    <value>menuFile</value>
+  </data>
+  <data name="&gt;&gt;menuFile.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073</value>
+  </data>
+  <data name="&gt;&gt;itemUser.Name" xml:space="preserve">
+    <value>itemUser</value>
+  </data>
+  <data name="&gt;&gt;itemUser.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073</value>
+  </data>
+  <data name="&gt;&gt;itemExit.Name" xml:space="preserve">
+    <value>itemExit</value>
+  </data>
+  <data name="&gt;&gt;itemExit.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073</value>
+  </data>
+  <data name="&gt;&gt;menuView.Name" xml:space="preserve">
+    <value>menuView</value>
+  </data>
+  <data name="&gt;&gt;menuView.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073</value>
+  </data>
+  <data name="&gt;&gt;itemServerWindow.Name" xml:space="preserve">
+    <value>itemServerWindow</value>
+  </data>
+  <data name="&gt;&gt;itemServerWindow.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarCheckItem, DevExpress.XtraBars.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073</value>
+  </data>
+  <data name="&gt;&gt;itemSwitchWindow.Name" xml:space="preserve">
+    <value>itemSwitchWindow</value>
+  </data>
+  <data name="&gt;&gt;itemSwitchWindow.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarCheckItem, DevExpress.XtraBars.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073</value>
+  </data>
+  <data name="&gt;&gt;itemDASDWindow.Name" xml:space="preserve">
+    <value>itemDASDWindow</value>
+  </data>
+  <data name="&gt;&gt;itemDASDWindow.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarCheckItem, DevExpress.XtraBars.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073</value>
+  </data>
+  <data name="&gt;&gt;subToolbars.Name" xml:space="preserve">
+    <value>subToolbars</value>
+  </data>
+  <data name="&gt;&gt;subToolbars.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarToolbarsListItem, DevExpress.XtraBars.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073</value>
+  </data>
+  <data name="&gt;&gt;menuManagement.Name" xml:space="preserve">
+    <value>menuManagement</value>
+  </data>
+  <data name="&gt;&gt;menuManagement.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073</value>
+  </data>
+  <data name="&gt;&gt;subSystem.Name" xml:space="preserve">
+    <value>subSystem</value>
+  </data>
+  <data name="&gt;&gt;subSystem.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073</value>
+  </data>
+  <data name="&gt;&gt;itemSystemDefaultsManager.Name" xml:space="preserve">
+    <value>itemSystemDefaultsManager</value>
+  </data>
+  <data name="&gt;&gt;itemSystemDefaultsManager.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073</value>
+  </data>
+  <data name="&gt;&gt;itemDeviceManager.Name" xml:space="preserve">
+    <value>itemDeviceManager</value>
+  </data>
+  <data name="&gt;&gt;itemDeviceManager.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073</value>
+  </data>
+  <data name="&gt;&gt;itemOperatingSystemManager.Name" xml:space="preserve">
+    <value>itemOperatingSystemManager</value>
+  </data>
+  <data name="&gt;&gt;itemOperatingSystemManager.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073</value>
+  </data>
+  <data name="&gt;&gt;subLocation.Name" xml:space="preserve">
+    <value>subLocation</value>
+  </data>
+  <data name="&gt;&gt;subLocation.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073</value>
+  </data>
+  <data name="&gt;&gt;itemLocationManager.Name" xml:space="preserve">
+    <value>itemLocationManager</value>
+  </data>
+  <data name="&gt;&gt;itemLocationManager.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073</value>
+  </data>
+  <data name="&gt;&gt;itemDataCenterManager.Name" xml:space="preserve">
+    <value>itemDataCenterManager</value>
+  </data>
+  <data name="&gt;&gt;itemDataCenterManager.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073</value>
+  </data>
+  <data name="&gt;&gt;itemCoordinateManager.Name" xml:space="preserve">
+    <value>itemCoordinateManager</value>
+  </data>
+  <data name="&gt;&gt;itemCoordinateManager.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073</value>
+  </data>
+  <data name="&gt;&gt;subCable.Name" xml:space="preserve">
+    <value>subCable</value>
+  </data>
+  <data name="&gt;&gt;subCable.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073</value>
+  </data>
+  <data name="&gt;&gt;itemCableCategoryManager.Name" xml:space="preserve">
+    <value>itemCableCategoryManager</value>
+  </data>
+  <data name="&gt;&gt;itemCableCategoryManager.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073</value>
+  </data>
+  <data name="&gt;&gt;itemCableModelManager.Name" xml:space="preserve">
+    <value>itemCableModelManager</value>
+  </data>
+  <data name="&gt;&gt;itemCableModelManager.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073</value>
+  </data>
+  <data name="&gt;&gt;itemCableManager.Name" xml:space="preserve">
+    <value>itemCableManager</value>
+  </data>
+  <data name="&gt;&gt;itemCableManager.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073</value>
+  </data>
+  <data name="&gt;&gt;subSan.Name" xml:space="preserve">
+    <value>subSan</value>
+  </data>
+  <data name="&gt;&gt;subSan.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073</value>
+  </data>
+  <data name="&gt;&gt;itemSanGroupManager.Name" xml:space="preserve">
+    <value>itemSanGroupManager</value>
+  </data>
+  <data name="&gt;&gt;itemSanGroupManager.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073</value>
+  </data>
+  <data name="&gt;&gt;itemSanManager.Name" xml:space="preserve">
+    <value>itemSanManager</value>
+  </data>
+  <data name="&gt;&gt;itemSanManager.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073</value>
+  </data>
+  <data name="&gt;&gt;subBlech.Name" xml:space="preserve">
+    <value>subBlech</value>
+  </data>
+  <data name="&gt;&gt;subBlech.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073</value>
+  </data>
+  <data name="&gt;&gt;itemNewBlech.Name" xml:space="preserve">
+    <value>itemNewBlech</value>
+  </data>
+  <data name="&gt;&gt;itemNewBlech.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073</value>
+  </data>
+  <data name="&gt;&gt;itemBlechManager.Name" xml:space="preserve">
+    <value>itemBlechManager</value>
+  </data>
+  <data name="&gt;&gt;itemBlechManager.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073</value>
+  </data>
+  <data name="&gt;&gt;itemBlechTypeManager.Name" xml:space="preserve">
+    <value>itemBlechTypeManager</value>
+  </data>
+  <data name="&gt;&gt;itemBlechTypeManager.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073</value>
+  </data>
+  <data name="&gt;&gt;subServer.Name" xml:space="preserve">
+    <value>subServer</value>
+  </data>
+  <data name="&gt;&gt;subServer.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073</value>
+  </data>
+  <data name="&gt;&gt;itemNewServer.Name" xml:space="preserve">
+    <value>itemNewServer</value>
+  </data>
+  <data name="&gt;&gt;itemNewServer.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073</value>
+  </data>
+  <data name="&gt;&gt;itemServerManager.Name" xml:space="preserve">
+    <value>itemServerManager</value>
+  </data>
+  <data name="&gt;&gt;itemServerManager.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073</value>
+  </data>
+  <data name="&gt;&gt;subSwitch.Name" xml:space="preserve">
+    <value>subSwitch</value>
+  </data>
+  <data name="&gt;&gt;subSwitch.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073</value>
+  </data>
+  <data name="&gt;&gt;itemNewSwitch.Name" xml:space="preserve">
+    <value>itemNewSwitch</value>
+  </data>
+  <data name="&gt;&gt;itemNewSwitch.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073</value>
+  </data>
+  <data name="&gt;&gt;itemSwitchTypeManager.Name" xml:space="preserve">
+    <value>itemSwitchTypeManager</value>
+  </data>
+  <data name="&gt;&gt;itemSwitchTypeManager.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073</value>
+  </data>
+  <data name="&gt;&gt;itemSwitchManager.Name" xml:space="preserve">
+    <value>itemSwitchManager</value>
+  </data>
+  <data name="&gt;&gt;itemSwitchManager.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073</value>
+  </data>
+  <data name="&gt;&gt;subVTPort.Name" xml:space="preserve">
+    <value>subVTPort</value>
+  </data>
+  <data name="&gt;&gt;subVTPort.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073</value>
+  </data>
+  <data name="&gt;&gt;itemNewVTPort.Name" xml:space="preserve">
+    <value>itemNewVTPort</value>
+  </data>
+  <data name="&gt;&gt;itemNewVTPort.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073</value>
+  </data>
+  <data name="&gt;&gt;itemVTPortManager.Name" xml:space="preserve">
+    <value>itemVTPortManager</value>
+  </data>
+  <data name="&gt;&gt;itemVTPortManager.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073</value>
+  </data>
+  <data name="&gt;&gt;itemVTPortDetails.Name" xml:space="preserve">
+    <value>itemVTPortDetails</value>
+  </data>
+  <data name="&gt;&gt;itemVTPortDetails.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073</value>
+  </data>
+  <data name="&gt;&gt;subConnection.Name" xml:space="preserve">
+    <value>subConnection</value>
+  </data>
+  <data name="&gt;&gt;subConnection.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073</value>
+  </data>
+  <data name="&gt;&gt;itemNewConnection.Name" xml:space="preserve">
+    <value>itemNewConnection</value>
+  </data>
+  <data name="&gt;&gt;itemNewConnection.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073</value>
+  </data>
+  <data name="&gt;&gt;itemConnectionList.Name" xml:space="preserve">
+    <value>itemConnectionList</value>
+  </data>
+  <data name="&gt;&gt;itemConnectionList.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073</value>
+  </data>
+  <data name="&gt;&gt;subDasd.Name" xml:space="preserve">
+    <value>subDasd</value>
+  </data>
+  <data name="&gt;&gt;subDasd.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073</value>
+  </data>
+  <data name="&gt;&gt;itemDasdCuTypeManager.Name" xml:space="preserve">
+    <value>itemDasdCuTypeManager</value>
+  </data>
+  <data name="&gt;&gt;itemDasdCuTypeManager.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073</value>
+  </data>
+  <data name="&gt;&gt;itemDasdManager.Name" xml:space="preserve">
+    <value>itemDasdManager</value>
+  </data>
+  <data name="&gt;&gt;itemDasdManager.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073</value>
+  </data>
+  <data name="&gt;&gt;itemNewDasd.Name" xml:space="preserve">
+    <value>itemNewDasd</value>
+  </data>
+  <data name="&gt;&gt;itemNewDasd.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073</value>
+  </data>
+  <data name="&gt;&gt;subDataCenterConnection.Name" xml:space="preserve">
+    <value>subDataCenterConnection</value>
+  </data>
+  <data name="&gt;&gt;subDataCenterConnection.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073</value>
+  </data>
+  <data name="&gt;&gt;itemDCCNewConnection.Name" xml:space="preserve">
+    <value>itemDCCNewConnection</value>
+  </data>
+  <data name="&gt;&gt;itemDCCNewConnection.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073</value>
+  </data>
+  <data name="&gt;&gt;itemDCCConnectionManager.Name" xml:space="preserve">
+    <value>itemDCCConnectionManager</value>
+  </data>
+  <data name="&gt;&gt;itemDCCConnectionManager.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073</value>
+  </data>
+  <data name="&gt;&gt;menuReports.Name" xml:space="preserve">
+    <value>menuReports</value>
+  </data>
+  <data name="&gt;&gt;menuReports.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073</value>
+  </data>
+  <data name="&gt;&gt;itemCategorizedReport.Name" xml:space="preserve">
+    <value>itemCategorizedReport</value>
+  </data>
+  <data name="&gt;&gt;itemCategorizedReport.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073</value>
+  </data>
+  <data name="&gt;&gt;barButtonItem4.Name" xml:space="preserve">
+    <value>barButtonItem4</value>
+  </data>
+  <data name="&gt;&gt;barButtonItem4.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073</value>
+  </data>
+  <data name="&gt;&gt;menuTools.Name" xml:space="preserve">
+    <value>menuTools</value>
+  </data>
+  <data name="&gt;&gt;menuTools.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073</value>
+  </data>
+  <data name="&gt;&gt;itemImport.Name" xml:space="preserve">
+    <value>itemImport</value>
+  </data>
+  <data name="&gt;&gt;itemImport.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073</value>
+  </data>
+  <data name="&gt;&gt;itemExport.Name" xml:space="preserve">
+    <value>itemExport</value>
+  </data>
+  <data name="&gt;&gt;itemExport.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073</value>
+  </data>
+  <data name="&gt;&gt;barButtonItem2.Name" xml:space="preserve">
+    <value>barButtonItem2</value>
+  </data>
+  <data name="&gt;&gt;barButtonItem2.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073</value>
+  </data>
+  <data name="&gt;&gt;barButtonItem3.Name" xml:space="preserve">
+    <value>barButtonItem3</value>
+  </data>
+  <data name="&gt;&gt;barButtonItem3.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073</value>
+  </data>
+  <data name="&gt;&gt;menuHelp.Name" xml:space="preserve">
+    <value>menuHelp</value>
+  </data>
+  <data name="&gt;&gt;menuHelp.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073</value>
+  </data>
+  <data name="&gt;&gt;itemHelp.Name" xml:space="preserve">
+    <value>itemHelp</value>
+  </data>
+  <data name="&gt;&gt;itemHelp.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073</value>
+  </data>
+  <data name="&gt;&gt;itemAbout.Name" xml:space="preserve">
+    <value>itemAbout</value>
+  </data>
+  <data name="&gt;&gt;itemAbout.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073</value>
+  </data>
+  <data name="&gt;&gt;menuWindow.Name" xml:space="preserve">
+    <value>menuWindow</value>
+  </data>
+  <data name="&gt;&gt;menuWindow.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073</value>
+  </data>
+  <data name="&gt;&gt;subWindows.Name" xml:space="preserve">
+    <value>subWindows</value>
+  </data>
+  <data name="&gt;&gt;subWindows.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarMdiChildrenListItem, DevExpress.XtraBars.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073</value>
+  </data>
+  <data name="&gt;&gt;barStatusBar.Name" xml:space="preserve">
+    <value>barStatusBar</value>
+  </data>
+  <data name="&gt;&gt;barStatusBar.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Bar, DevExpress.XtraBars.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073</value>
+  </data>
+  <data name="&gt;&gt;statusUserName.Name" xml:space="preserve">
+    <value>statusUserName</value>
+  </data>
+  <data name="&gt;&gt;statusUserName.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarStaticItem, DevExpress.XtraBars.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073</value>
+  </data>
+  <data name="&gt;&gt;barToolbar.Name" xml:space="preserve">
+    <value>barToolbar</value>
+  </data>
+  <data name="&gt;&gt;barToolbar.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Bar, DevExpress.XtraBars.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073</value>
+  </data>
+  <data name="&gt;&gt;toolNewServer.Name" xml:space="preserve">
+    <value>toolNewServer</value>
+  </data>
+  <data name="&gt;&gt;toolNewServer.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073</value>
+  </data>
+  <data name="&gt;&gt;toolServerManager.Name" xml:space="preserve">
+    <value>toolServerManager</value>
+  </data>
+  <data name="&gt;&gt;toolServerManager.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073</value>
+  </data>
+  <data name="&gt;&gt;toolNewSwitch.Name" xml:space="preserve">
+    <value>toolNewSwitch</value>
+  </data>
+  <data name="&gt;&gt;toolNewSwitch.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073</value>
+  </data>
+  <data name="&gt;&gt;toolListSwitch.Name" xml:space="preserve">
+    <value>toolListSwitch</value>
+  </data>
+  <data name="&gt;&gt;toolListSwitch.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073</value>
+  </data>
+  <data name="&gt;&gt;toolNewDASD.Name" xml:space="preserve">
+    <value>toolNewDASD</value>
+  </data>
+  <data name="&gt;&gt;toolNewDASD.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073</value>
+  </data>
+  <data name="&gt;&gt;toolListDASD.Name" xml:space="preserve">
+    <value>toolListDASD</value>
+  </data>
+  <data name="&gt;&gt;toolListDASD.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073</value>
+  </data>
+  <data name="&gt;&gt;toolNewConnection.Name" xml:space="preserve">
+    <value>toolNewConnection</value>
+  </data>
+  <data name="&gt;&gt;toolNewConnection.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073</value>
+  </data>
+  <data name="&gt;&gt;toolListConnection.Name" xml:space="preserve">
+    <value>toolListConnection</value>
+  </data>
+  <data name="&gt;&gt;toolListConnection.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073</value>
+  </data>
+  <data name="&gt;&gt;toolNewDataCenterConnection.Name" xml:space="preserve">
+    <value>toolNewDataCenterConnection</value>
+  </data>
+  <data name="&gt;&gt;toolNewDataCenterConnection.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073</value>
+  </data>
+  <data name="&gt;&gt;toolListDataCenterConnection.Name" xml:space="preserve">
+    <value>toolListDataCenterConnection</value>
+  </data>
+  <data name="&gt;&gt;toolListDataCenterConnection.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073</value>
+  </data>
+  <data name="&gt;&gt;homeBarDockController.Name" xml:space="preserve">
+    <value>homeBarDockController</value>
+  </data>
+  <data name="&gt;&gt;homeBarDockController.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarAndDockingController, DevExpress.XtraBars.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073</value>
+  </data>
+  <data name="&gt;&gt;homeDockManager.Name" xml:space="preserve">
+    <value>homeDockManager</value>
+  </data>
+  <data name="&gt;&gt;homeDockManager.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Docking.DockManager, DevExpress.XtraBars.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073</value>
+  </data>
+  <data name="&gt;&gt;treeSwitchValue.Name" xml:space="preserve">
+    <value>treeSwitchValue</value>
+  </data>
+  <data name="&gt;&gt;treeSwitchValue.Type" xml:space="preserve">
+    <value>DevExpress.XtraTreeList.Columns.TreeListColumn, DevExpress.XtraTreeList.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073</value>
+  </data>
+  <data name="&gt;&gt;treeImageCollection.Name" xml:space="preserve">
+    <value>treeImageCollection</value>
+  </data>
+  <data name="&gt;&gt;treeImageCollection.Type" xml:space="preserve">
+    <value>DevExpress.Utils.ImageCollection, DevExpress.Utils.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073</value>
+  </data>
+  <data name="&gt;&gt;homeTooltipController.Name" xml:space="preserve">
+    <value>homeTooltipController</value>
+  </data>
+  <data name="&gt;&gt;homeTooltipController.Type" xml:space="preserve">
+    <value>DevExpress.Utils.ToolTipController, DevExpress.Utils.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073</value>
+  </data>
+  <data name="&gt;&gt;treeServerValue.Name" xml:space="preserve">
+    <value>treeServerValue</value>
+  </data>
+  <data name="&gt;&gt;treeServerValue.Type" xml:space="preserve">
+    <value>DevExpress.XtraTreeList.Columns.TreeListColumn, DevExpress.XtraTreeList.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073</value>
+  </data>
+  <data name="&gt;&gt;treeSanValue.Name" xml:space="preserve">
+    <value>treeSanValue</value>
+  </data>
+  <data name="&gt;&gt;treeSanValue.Type" xml:space="preserve">
+    <value>DevExpress.XtraTreeList.Columns.TreeListColumn, DevExpress.XtraTreeList.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073</value>
+  </data>
+  <data name="&gt;&gt;treeDASDValue.Name" xml:space="preserve">
+    <value>treeDASDValue</value>
+  </data>
+  <data name="&gt;&gt;treeDASDValue.Type" xml:space="preserve">
+    <value>DevExpress.XtraTreeList.Columns.TreeListColumn, DevExpress.XtraTreeList.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073</value>
+  </data>
+  <data name="&gt;&gt;treeDasdSanValue.Name" xml:space="preserve">
+    <value>treeDasdSanValue</value>
+  </data>
+  <data name="&gt;&gt;treeDasdSanValue.Type" xml:space="preserve">
+    <value>DevExpress.XtraTreeList.Columns.TreeListColumn, DevExpress.XtraTreeList.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073</value>
+  </data>
+  <data name="&gt;&gt;treeDCCValue.Name" xml:space="preserve">
+    <value>treeDCCValue</value>
+  </data>
+  <data name="&gt;&gt;treeDCCValue.Type" xml:space="preserve">
+    <value>DevExpress.XtraTreeList.Columns.TreeListColumn, DevExpress.XtraTreeList.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073</value>
+  </data>
+  <data name="&gt;&gt;itemSwitchDetails.Name" xml:space="preserve">
+    <value>itemSwitchDetails</value>
+  </data>
+  <data name="&gt;&gt;itemSwitchDetails.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073</value>
+  </data>
+  <data name="&gt;&gt;barButtonItem1.Name" xml:space="preserve">
+    <value>barButtonItem1</value>
+  </data>
+  <data name="&gt;&gt;barButtonItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073</value>
+  </data>
+  <data name="&gt;&gt;barSubItem1.Name" xml:space="preserve">
+    <value>barSubItem1</value>
+  </data>
+  <data name="&gt;&gt;barSubItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073</value>
+  </data>
+  <data name="&gt;&gt;barSubItem2.Name" xml:space="preserve">
+    <value>barSubItem2</value>
+  </data>
+  <data name="&gt;&gt;barSubItem2.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073</value>
+  </data>
+  <data name="&gt;&gt;repositoryItemTextEdit1.Name" xml:space="preserve">
+    <value>repositoryItemTextEdit1</value>
+  </data>
+  <data name="&gt;&gt;repositoryItemTextEdit1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemTextEdit, DevExpress.XtraEditors.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073</value>
+  </data>
+  <data name="&gt;&gt;homeMdiManager.Name" xml:space="preserve">
+    <value>homeMdiManager</value>
+  </data>
+  <data name="&gt;&gt;homeMdiManager.Type" xml:space="preserve">
+    <value>DevExpress.XtraTabbedMdi.XtraTabbedMdiManager, DevExpress.XtraBars.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.XtraForm, DevExpress.Utils.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073</value>
+  </data>
+  <data name="itemSwitchDetails.Caption" xml:space="preserve">
+    <value>Switch &amp;Details</value>
+  </data>
+  <data name="barButtonItem1.Caption" xml:space="preserve">
+    <value>barButtonItem1</value>
+  </data>
+  <data name="barSubItem1.Caption" xml:space="preserve">
+    <value>&amp;Backup</value>
+  </data>
+  <data name="barSubItem2.Caption" xml:space="preserve">
+    <value>&amp;Restore</value>
+  </data>
+  <data name="repositoryItemTextEdit1.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <metadata name="homeMdiManager.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>137, 11</value>
+  </metadata>
+</root>

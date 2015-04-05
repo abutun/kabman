@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="KabMan.Client.tBlech">
+    <Position X="3.5" Y="0.5" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>IEAgAAAAAAAABEAgBBIAAAAAAAAAAIAAgQAAACAABAA=</HashCode>
+      <FileName>Classes\KabMan\this\tBlech.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KabMan.Client.tDeviceBase">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAIAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\KabMan\this\tDeviceBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KabMan.Client.tInvalidBlechNoException" Collapsed="true">
+    <Position X="5.75" Y="5.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\KabMan\this\tInvalidBlechNoException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KabMan.Client.tBlechPosition">
+    <Position X="1.5" Y="0.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAABAAGIEAAAAAAAAAAAAAAAAAAAADAA=</HashCode>
+      <FileName>Classes\KabMan\this\tBlechPosition.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="KabMan.Client.tBlechTypes" Collapsed="true">
+    <Position X="5.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\KabMan\this\tBlechType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="KabMan.Client.tDevices" Collapsed="true">
+    <Position X="5.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAIAAAAAAAAAAAAAAAAAAgAEAAgAAAAA=</HashCode>
+      <FileName>Classes\KabMan\this\tDevices.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

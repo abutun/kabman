@@ -1,0 +1,40 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="KabMan.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="PasswordChar" Type="System.String" Scope="User">
+      <Value Profile="(Default)">●</Value>
+    </Setting>
+    <Setting Name="ImportSwitchFileName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">SAN_Switch_TUI.xls</Value>
+    </Setting>
+    <Setting Name="ImportServerFileName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">SAN_Server_TUI.xls</Value>
+    </Setting>
+    <Setting Name="ImportDasdFileName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">SAN_DASD_TUI.xls</Value>
+    </Setting>
+    <Setting Name="ImportServerPageColumns" Type="System.String" Scope="User">
+      <Value Profile="(Default)">{No:No};{Name:Name};{OS:Operating System};{LcUrm:URM LC};{Blech:BLECH};{Trunk:TRUNK};{VtPort:VT PORT};{UrmUrm:URM URM}</Value>
+    </Setting>
+    <Setting Name="ImportDasdPageColumns" Type="System.String" Scope="User">
+      <Value Profile="(Default)">{No:No};{Name:Name};{Model:Model};{Port:Port};{LcUrm:URM LC};{Blech:BLECH};{Trunk:TRUNK};{VtPort:VT PORT};{UrmUrm:URM URM}</Value>
+    </Setting>
+    <Setting Name="ImportSwitchPageColumns" Type="System.String" Scope="User">
+      <Value Profile="(Default)">{No:No};{Name:Name};{Model:Model};{Port:Port};{LcUrm:URM LC};{Blech:BLECH};{Trunk:TRUNK};{VtPort:VT PORT};{UrmUrm:URM URM};{ConnectionName:Connection Name}</Value>
+    </Setting>
+    <Setting Name="KabManConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=ORION\SQL2008; Initial Catalog=KabMan; Integrated Security=True&lt;/ConnectionString&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=ORION\SQL2008; Initial Catalog=KabMan; Integrated Security=True</Value>
+    </Setting>
+    <Setting Name="ImportDccFileName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">SAN_DCC_TUI.xls</Value>
+    </Setting>
+    <Setting Name="ImportDccPageColumns" Type="System.String" Scope="User">
+      <Value Profile="(Default)">{No:No};{Name:Name};{LcUrm:URM LC};{VtPort1:VT PORT1};{Trunk:TRUNK};{VtPort2:VT PORT2};{UrmUrm:URM URM}</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

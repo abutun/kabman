@@ -1,0 +1,1045 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="barManager1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="barSubItem1.Caption" xml:space="preserve">
+    <value>Management</value>
+  </data>
+  <data name="mnuLocation.Caption" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="mnuSanServers.Caption" xml:space="preserve">
+    <value>Fabric</value>
+  </data>
+  <data name="barSubItem3.Caption" xml:space="preserve">
+    <value>User Accounts</value>
+  </data>
+  <data name="BarBtnUserManager.Caption" xml:space="preserve">
+    <value>User Manager</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="BarBtnUserManager.Glyph" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAAK+wAA
+        CvsBy58dkAAAAmVJREFUOE/Nk/1L02EUxc8inVm+kGm4jCgrdGZiLrVCLAWnRFiQ1aC01BqYuqXDl00S
+        SywMLUyHZqbTZltT870yNDBZpokRlqC/RAoVZFFQP1h5+gqhDPsDvHC4PDyXzz3ngQdYTiXqzoWyVYOB
+        Di1emVQw9F2Ezz+DEqHvE3RGkPy/pjuzUNJVAA5XgmMGcLQGbNfiszCc5OfnPyvbHUJnV3cK5zlBp2wg
+        jRmQmjLxp+8aWJsGGjOdWK8GRwrd5iBymAyPOEhXFydGBoIBWzAPqbABVCZD1awD61Xgh5ZE8r2RnDaR
+        g0q62GFWGOaUCRyvA4fKwB4dqm0AVWeRas4C9ckgrXnkaDH5upTsUVAEUZtFuBu8Cc477MwH21QotgEY
+        1PC6l45vd1LAn60KciBbAGWSDcHjeUY4Vp3DTKcG7MgGG4Ulysv2R5Y8ZHLcgWOao+vnHgnZ2bCDP8pl
+        3CUrbIh+sbFd81HNlEJn1lyNYJR+G71rN3/3LF0VtAjZafBCiOWTh3qMTod72UsysX6KCO+mNKeAet5g
+        8a/rjLVGM3b4EKNGY+imdehfBAToKyQJ3fTNfk6x3Mw08yRji6zcdP4ZEWih9msGdTNapk+rePytgvtH
+        IuhxxfX3AmBF6O0JyemH9E59Sl/dEB1jzFwtyD//JZ3kjxnZHM+kdwlUTJxk1JCc0nIPrskWv1kAiIJu
+        9YnD6rgu7gG3X+inNHeQPllWSuK7KApu+uKZE1awtdKuekOJ2OheZF/mfGnlCeRCvBhhb4sdZJZ4BN+/
+        iz3NfQhteYIgcy1kTUoEWNYup/+21MtflfElnE75n3kAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="BarBtnChangePassword.Caption" xml:space="preserve">
+    <value>Change Password</value>
+  </data>
+  <data name="BarBtnChangePassword.Glyph" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAAK7wAA
+        Cu8BfXaKSAAAAlpJREFUOE+tk81PE2EQxvkvTPwbTDwRE08YD4REPIIh4WBq+VIoRdjuQqrRg1EBQ/gw
+        QkupgTZVDIFISBRjbINYW0rTsiy724/dLdBFKlYTLxonj6+cJN0jk0xm3stvnnkmb1XVaYXjbcOv3pUb
+        xK3YWbYcV2GlnfjFDnItdFDfy3a6HWgj5/MWGphro4q5Ax9aKXSwgDOeszjnPY8LTy/i0shlXBm6ioYH
+        13D9vg1trg4shpcxEHBWAvrf2yn6M44xeQxe2Quf5IM/7Yc/4cdsbBaBaAChSAjr+SiEWYcF4J2d1sqf
+        MClNYk6cw3xiHuFcGGJJhHQgQSyKEPdZHmzDNd1pAVi1U7i0htoXtWhaaIJjyQFf1Ae1qOL/yBXzELzd
+        lQD+dQslv6WxnF3GqrqKsBLGVnkLCSMByWAKDKaE1TSr7mnOQsFSO6XKYgVAKkgnFKh7Wbi9LgsAO1ek
+        +BH1oXrY/DY4x50Ivglic38TMSOGuBqHtqthW9uGe4qvBNx51UPZH3moX1VkjjJQSyqUkgLpUELSSCKZ
+        TaJgFiDpEvrHLBS4gz20VlxHtb8adZ46NI43wjZkQ9fdLkRSEaTU1PEqOzkZ/aMWAH6mk/RyAeZ3E2bZ
+        hHakQTZlZloaG5kNxKU45LyMrawIYdgCIDDAZzOGmmc1aB5sxkRwArqunzDw30PJKuAeWVxBmHGQUdqD
+        /sVA/pBN32f753eg6hkoOvNDU6FqrM8p4B9bmNg31fqb9ziI83QSN8Vyopu40R7iR3pJeMKTMMwT95Aj
+        YVCgm/du/TmtT1z1F+UhAldS9+mBAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="barSubItem4.Caption" xml:space="preserve">
+    <value>Import-Export</value>
+  </data>
+  <data name="BarBtnImportFromExcel.Caption" xml:space="preserve">
+    <value>Import</value>
+  </data>
+  <data name="BarBtnExportToExcel.Caption" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="BarBtnCloseKabMan.Caption" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="BarBtnCloseKabMan.Glyph" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAAK/gAA
+        Cv4B5iV4ZgAAAklJREFUOE+1091PklEcB/BHVjq6cksvumj1D7S8cksuuoguwmzLqW3QpBi+hXNBopMw
+        4XlkYDSsYLPHxRQs3hbojJe1lsMpGDVq6ezCuJNqNpRQNMZi355oC29gdtHZvtu5OL/POWfndwjifw2z
+        2Ryx22ybVoslOT5Op0ymB9sGgz6t1VJ7JKnaUSgGfCX3drlcuyRFQj2sgc0WwuRkGDQdgsm0CINhCRJJ
+        31ZJYGrKujuouQffOhCJJJnCEDyeVXi9MZjNH9DVdet7UaBMTwSi0Wh2iNLhzTcgtJSAx72KTAZIJACf
+        7wva22+migKs0bKfXMu53Ku5INZ/MEB4A2NjETidH2E0hqHRvIRY3F0AWKOseCXNTuXz6Ei66X0tTlir
+        UEPXIAcGCG2AJP0YHg6AovzM/AVEou6dvyeoMB7OjCRbsD/azSactFSDY69DLJaCUjmLoSEvVKrnUKv9
+        aG3tLADlDw9l1F8vYX/ufL6I4xNHcdZRi09rm5iZeY35+QgUiuk8xueLCwBz5zSD5MM2lW9fCJ/CsceV
+        qBs/A6XvNjzeZdwdcUOnoyGXO/JIc7MwXfwVDET2/AQ355y1oUpHYNq/jD65CzLZU/T2OtDf70Zj49US
+        gJ5YCM4Fs9dkApy2V8AdeAeZ1JYH/iAuNDRc2SvZSIoBxZZE2gnaOwJfYA09PVZIpU+YTEEoNKC+/nK8
+        JNDRcWNUdL3tbUszf9H9bIXpPDMEgt+F1AqXq2zjcJTsA/1DPv9+NVMY5/EGvTweyT1Q0b8s+gWTV2z9
+        kR9oSwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="bar2.Text" xml:space="preserve">
+    <value>Main menu</value>
+  </data>
+  <data name="lblUser.Caption" xml:space="preserve">
+    <value>Benutzer : demo</value>
+  </data>
+  <data name="bar3.Text" xml:space="preserve">
+    <value>Status bar</value>
+  </data>
+  <data name="btnNeuServer.Caption" xml:space="preserve">
+    <value>New Server</value>
+  </data>
+  <data name="toolTipItem1.Text" xml:space="preserve">
+    <value>New Server</value>
+  </data>
+  <data name="btnServerListe.Caption" xml:space="preserve">
+    <value>Server Liste</value>
+  </data>
+  <data name="toolTipItem2.Text" xml:space="preserve">
+    <value>Server Liste</value>
+  </data>
+  <data name="barButtonItem15.Caption" xml:space="preserve">
+    <value>barButtonItem15</value>
+  </data>
+  <data name="barButtonItem15.Glyph" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAAK7wAA
+        Cu8BfXaKSAAAApxJREFUOE+tk91PkmEYxh9POqmTWv9AR22dddSJB7XZlssTNdrMTQ+AoZaJNoYT8SMs
+        JTF6AxXSlJFDHSAqX/Jh2ZumkAxF/DqAkW3OKNeMt2DpvHqp9SWug9a9Xdtz8Ny/63ruew8h/6MUCnWT
+        wWDUdKl1zi71wHSXemihUz0cVVGmd5TSnGxu1AcFfHkHr1R++VA/m837MRL5go0NYHNzF7FYCqurSYRC
+        Sfh8DNzuLQwOrkIms+6LRKZABmTU7GL2doF4PIFAILFP02F4vQGMjU3DYJiAVjsCijJCLh/G9fIHqQyA
+        Ru9kwFbqU4oFbMPjmYTN9gxGowd6vQM92nGoKDMUbUOoEBwCaFHZmQvdccytfUA0tA16wgXa4YF3xAHr
+        wBj6ui243T6KshYrinmdmQnUvQ7mzdZnnKhZRPa9dZysnEWWYB6EuwAiWAGpWUGWNIzjjUHklOmSGU+Q
+        Ka1Mfn8cscg2tKYoWtV29D22wdI/AlfPEEIv5rESisAfjGHOt7aXAWh9aGdmAnEcvRmC4NE6zomncKp6
+        FkdusCkqw+j374CoCAjFqoPVwWposzCFujhoOgY+tQSOxI4q2Ti8k4t4OfkKfvcsiJKASpaAyEl63rf+
+        YNyXGxmLM4ZjwiVIe0IoqLUiW+SFyb/1y7WdoCNxDUTGJmhmJf0tSYNk4K3bEYHRvIyz9UGcrnDhfJUD
+        T/2xb5HTzunmu+8LIXl9CbXRiyC1vwG4JQqOrMmyM2xYhk4zA7FQA3F1L+ipMEgre/HOd9d0M6ljzyJW
+        wgOz4JYqi6QSY0Kl8oHH04LP64THHcSEM4DnU+w62cjiSA670kOG+GMgRZzGYj5XEb96pX6Zw6l7kp8v
+        lOTllRfk5pac+ela+RfAv/zsr+vcw2FDgIZcAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnSwitchListe.Caption" xml:space="preserve">
+    <value>Switch Liste</value>
+  </data>
+  <data name="toolTipItem3.Text" xml:space="preserve">
+    <value>Switch Liste</value>
+  </data>
+  <data name="BBtnNewConnection.Glyph" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAAK7wAA
+        Cu8BfXaKSAAAAbVJREFUOE+tk8svA1EUh88fR2JvIxaWNjQaibRBKUI1oogFiYpgIVKvJhVvpSjx2ggi
+        047HBilCFH1M5+fc23qkYyzETb7kLuZ853fOzRD912nvn4egpTcgcXhmJLb2CYm1eUxQYtpPFP92hKDB
+        4zeX5At0XUeGSWk6kumMTHB29WIucfXNGQIISTrzJciNIWWGUZzdflNBghPEkxoe4klc3DzC6hzSjYKu
+        aSnYPzzH3sE5wrsq1sIqFjdVBNZVTK6q8DEPrxos9d4fEuQEIracn6OneX7RXewhoWXwxvd7FlTWDxgF
+        jZ5sgrWtCILMyqaChZCCQFDBkRID9RKoh+kkDPuCRkGt2ycFG9sKQszqloIzNYaTSCwr6CL0vJWB3ISp
+        uR2jwO4alwJRvB5WsMwJTqNcmOtKHYTO51JQC6doYhzM92N1jkrB0oaCRWae4x9zdxFZdBbFbXfFqLss
+        gl0tBNnzBFWNI1IwG4rmiODg5Bbk4g9bs11FMdXyvYax5gnKbQNScBtPfXLznMI185TQZGRbtABUTRgc
+        XzHuoIKfxtIwyHi/cHhRycitf3S1mLzCX//qdwd6AxxErvwRAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="toolTipTitleItem1.Text" xml:space="preserve">
+    <value>New Connection</value>
+  </data>
+  <data name="bar1.Text" xml:space="preserve">
+    <value>Custom 4</value>
+  </data>
+  <assembly alias="DevExpress.XtraBars.v8.2" name="DevExpress.XtraBars.v8.2, Version=8.2.4.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1" />
+  <data name="barManager1.Categories" type="DevExpress.XtraBars.BarManagerCategory, DevExpress.XtraBars.v8.2" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFtEZXZFeHByZXNzLlh0cmFCYXJzLnY4LjIsIFZlcnNpb249OC4y
+        LjQuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj05YjE3MWM5ZmQ2NGRhMWQxBQEAAAAm
+        RGV2RXhwcmVzcy5YdHJhQmFycy5CYXJNYW5hZ2VyQ2F0ZWdvcnkDAAAABE5hbWUER3VpZAdWaXNpYmxl
+        AQMAC1N5c3RlbS5HdWlkAQIAAAAGAwAAAAdQcm9ncmFtBPz///8LU3lzdGVtLkd1aWQLAAAAAl9hAl9i
+        Al9jAl9kAl9lAl9mAl9nAl9oAl9pAl9qAl9rAAAAAAAAAAAAAAAIBwcCAgICAgICAkVFmK6LnQRGq88w
+        AxTQwIkBCw==
+</value>
+  </data>
+  <metadata name="barAndDockingController1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>737, 17</value>
+  </metadata>
+  <metadata name="toolTipController1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>586, 17</value>
+  </metadata>
+  <data name="&gt;&gt;barDockControlTop.Name" xml:space="preserve">
+    <value>barDockControlTop</value>
+  </data>
+  <data name="&gt;&gt;barDockControlTop.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarDockControl, DevExpress.XtraBars.v8.2, Version=8.2.4.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;barDockControlTop.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;barDockControlTop.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;barDockControlBottom.Name" xml:space="preserve">
+    <value>barDockControlBottom</value>
+  </data>
+  <data name="&gt;&gt;barDockControlBottom.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarDockControl, DevExpress.XtraBars.v8.2, Version=8.2.4.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;barDockControlBottom.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;barDockControlBottom.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;barDockControlLeft.Name" xml:space="preserve">
+    <value>barDockControlLeft</value>
+  </data>
+  <data name="&gt;&gt;barDockControlLeft.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarDockControl, DevExpress.XtraBars.v8.2, Version=8.2.4.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;barDockControlLeft.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;barDockControlLeft.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;barDockControlRight.Name" xml:space="preserve">
+    <value>barDockControlRight</value>
+  </data>
+  <data name="&gt;&gt;barDockControlRight.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarDockControl, DevExpress.XtraBars.v8.2, Version=8.2.4.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;barDockControlRight.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;barDockControlRight.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>885, 598</value>
+  </data>
+  <data name="splitterControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>180, 52</value>
+  </data>
+  <data name="splitterControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 523</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="splitterControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;splitterControl1.Name" xml:space="preserve">
+    <value>splitterControl1</value>
+  </data>
+  <data name="&gt;&gt;splitterControl1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SplitterControl, DevExpress.Utils.v8.2, Version=8.2.4.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;splitterControl1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;splitterControl1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="treeListColumn1.Caption" xml:space="preserve">
+    <value>Control Panel</value>
+  </data>
+  <data name="treeListColumn1.MinWidth" type="System.Int32, mscorlib">
+    <value>56</value>
+  </data>
+  <data name="treeListColumn1.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="treeListColumn1.VisibleIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="treeListColumn2.Caption" xml:space="preserve">
+    <value>Id</value>
+  </data>
+  <data name="treeListColumn3.Caption" xml:space="preserve">
+    <value>treeListColumn3</value>
+  </data>
+  <data name="treeListColumn4.Caption" xml:space="preserve">
+    <value>treeListColumn4</value>
+  </data>
+  <data name="treeListColumn5.Caption" xml:space="preserve">
+    <value>treeListColumn5</value>
+  </data>
+  <data name="treeListColumn6.Caption" xml:space="preserve">
+    <value>treeListColumn6</value>
+  </data>
+  <data name="treeMenu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 2</value>
+  </data>
+  <metadata name="imageCollection1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>309, 17</value>
+  </metadata>
+  <assembly alias="DevExpress.Utils.v8.2" name="DevExpress.Utils.v8.2, Version=8.2.4.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1" />
+  <data name="imageCollection1.ImageStream" type="DevExpress.Utils.ImageCollectionStreamer, DevExpress.Utils.v8.2" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFhEZXZFeHByZXNzLlV0aWxzLnY4LjIsIFZlcnNpb249OC4yLjQu
+        MCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj05YjE3MWM5ZmQ2NGRhMWQxDAMAAABRU3lz
+        dGVtLkRyYXdpbmcsIFZlcnNpb249Mi4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tl
+        bj1iMDNmNWY3ZjExZDUwYTNhBQEAAAAoRGV2RXhwcmVzcy5VdGlscy5JbWFnZUNvbGxlY3Rpb25TdHJl
+        YW1lcgIAAAAJSW1hZ2VTaXplBERhdGEEBxNTeXN0ZW0uRHJhd2luZy5TaXplAwAAAAICAAAABfz///8T
+        U3lzdGVtLkRyYXdpbmcuU2l6ZQIAAAAFd2lkdGgGaGVpZ2h0AAAICAMAAAAQAAAAEAAAAAkFAAAADwUA
+        AACNCgAAAi8DAACJUE5HDQoaCgAAAA1JSERSAAAAEAAAABAIBgAAAB/z/2EAAAABc1JHQgCuzhzpAAAA
+        BGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAA
+        CXBIWXMAAArvAAAK7wF9dopIAAACmElEQVQ4T62T3U9SARjGjzfe2E2tf6Bu3LprXXTjVm1daNkaJBrT
+        sAKGWorADAsRFVMx1I4cFPwkZKg7IioffkCrMZ25xVT8IFswZpszmmvlKVg2n6iLbo7d+dy/v+f37t1L
+        EMcVvZ6qs9tpUxdlme6ibPNd1MiKkRqNGsixz2SHI1GvsS5LxLo2UbHu+pGdbrf/WyTyE9vbwM7OAWKx
+        JMLhBEKhBJaWGMzN7WJ4OAyt1nVYVTUWZEEmHLPMrwMgHt9HMLh/GAisw+8PYnJyHnb7DMzmcZAkDZ1u
+        FA9KnydZAJN1mkEqye/JFGAPPt9LuN2vQNM+WK1e9JqnYCAd0LeMoExyBKDR4GGudMfx5t0XREN7CMzM
+        IuD1wT/uhcs2iYFuJxqeTaCk0YVCkZFtQPV5mY+7P3BKvoqs1i2cLl9EmuQtCOEKCMkmCPkm0tTrOKlZ
+        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
+        SUVORK5CYIIL
+</value>
+  </data>
+  <data name="treeMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 520</value>
+  </data>
+  <data name="treeMenu.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;treeMenu.Name" xml:space="preserve">
+    <value>treeMenu</value>
+  </data>
+  <data name="&gt;&gt;treeMenu.Type" xml:space="preserve">
+    <value>DevExpress.XtraTreeList.TreeList, DevExpress.XtraTreeList.v8.2, Version=8.2.4.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;treeMenu.Parent" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;treeMenu.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="layoutControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="layoutControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 52</value>
+  </data>
+  <data name="layoutControlGroup1.CustomizationFormText" xml:space="preserve">
+    <value>layoutControlGroup1</value>
+  </data>
+  <data name="layoutControlItem1.CustomizationFormText" xml:space="preserve">
+    <value>layoutControlItem1</value>
+  </data>
+  <data name="layoutControlItem1.Text" xml:space="preserve">
+    <value>layoutControlItem1</value>
+  </data>
+  <data name="layoutControlGroup1.Text" xml:space="preserve">
+    <value>layoutControlGroup1</value>
+  </data>
+  <data name="layoutControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 523</value>
+  </data>
+  <data name="layoutControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="layoutControl1.Text" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;layoutControl1.Name" xml:space="preserve">
+    <value>layoutControl1</value>
+  </data>
+  <data name="&gt;&gt;layoutControl1.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControl, DevExpress.XtraLayout.v8.2, Version=8.2.4.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;layoutControl1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;layoutControl1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>KabMan</value>
+  </data>
+  <data name="&gt;&gt;barManager1.Name" xml:space="preserve">
+    <value>barManager1</value>
+  </data>
+  <data name="&gt;&gt;barManager1.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarManager, DevExpress.XtraBars.v8.2, Version=8.2.4.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;bar2.Name" xml:space="preserve">
+    <value>bar2</value>
+  </data>
+  <data name="&gt;&gt;bar2.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Bar, DevExpress.XtraBars.v8.2, Version=8.2.4.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;barSubItem1.Name" xml:space="preserve">
+    <value>barSubItem1</value>
+  </data>
+  <data name="&gt;&gt;barSubItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v8.2, Version=8.2.4.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;mnuLocation.Name" xml:space="preserve">
+    <value>mnuLocation</value>
+  </data>
+  <data name="&gt;&gt;mnuLocation.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v8.2, Version=8.2.4.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;mnuSanServers.Name" xml:space="preserve">
+    <value>mnuSanServers</value>
+  </data>
+  <data name="&gt;&gt;mnuSanServers.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v8.2, Version=8.2.4.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;barSubItem3.Name" xml:space="preserve">
+    <value>barSubItem3</value>
+  </data>
+  <data name="&gt;&gt;barSubItem3.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v8.2, Version=8.2.4.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;BarBtnUserManager.Name" xml:space="preserve">
+    <value>BarBtnUserManager</value>
+  </data>
+  <data name="&gt;&gt;BarBtnUserManager.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v8.2, Version=8.2.4.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;BarBtnChangePassword.Name" xml:space="preserve">
+    <value>BarBtnChangePassword</value>
+  </data>
+  <data name="&gt;&gt;BarBtnChangePassword.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v8.2, Version=8.2.4.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;barSubItem4.Name" xml:space="preserve">
+    <value>barSubItem4</value>
+  </data>
+  <data name="&gt;&gt;barSubItem4.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v8.2, Version=8.2.4.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;BarBtnImportFromExcel.Name" xml:space="preserve">
+    <value>BarBtnImportFromExcel</value>
+  </data>
+  <data name="&gt;&gt;BarBtnImportFromExcel.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v8.2, Version=8.2.4.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;BarBtnExportToExcel.Name" xml:space="preserve">
+    <value>BarBtnExportToExcel</value>
+  </data>
+  <data name="&gt;&gt;BarBtnExportToExcel.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v8.2, Version=8.2.4.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;BarBtnCloseKabMan.Name" xml:space="preserve">
+    <value>BarBtnCloseKabMan</value>
+  </data>
+  <data name="&gt;&gt;BarBtnCloseKabMan.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v8.2, Version=8.2.4.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;bar3.Name" xml:space="preserve">
+    <value>bar3</value>
+  </data>
+  <data name="&gt;&gt;bar3.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Bar, DevExpress.XtraBars.v8.2, Version=8.2.4.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;lblUser.Name" xml:space="preserve">
+    <value>lblUser</value>
+  </data>
+  <data name="&gt;&gt;lblUser.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarStaticItem, DevExpress.XtraBars.v8.2, Version=8.2.4.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;bar1.Name" xml:space="preserve">
+    <value>bar1</value>
+  </data>
+  <data name="&gt;&gt;bar1.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Bar, DevExpress.XtraBars.v8.2, Version=8.2.4.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;btnNeuServer.Name" xml:space="preserve">
+    <value>btnNeuServer</value>
+  </data>
+  <data name="&gt;&gt;btnNeuServer.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v8.2, Version=8.2.4.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;btnServerListe.Name" xml:space="preserve">
+    <value>btnServerListe</value>
+  </data>
+  <data name="&gt;&gt;btnServerListe.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v8.2, Version=8.2.4.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;barButtonItem15.Name" xml:space="preserve">
+    <value>barButtonItem15</value>
+  </data>
+  <data name="&gt;&gt;barButtonItem15.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v8.2, Version=8.2.4.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;btnSwitchListe.Name" xml:space="preserve">
+    <value>btnSwitchListe</value>
+  </data>
+  <data name="&gt;&gt;btnSwitchListe.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v8.2, Version=8.2.4.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;BBtnNewConnection.Name" xml:space="preserve">
+    <value>BBtnNewConnection</value>
+  </data>
+  <data name="&gt;&gt;BBtnNewConnection.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v8.2, Version=8.2.4.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;barAndDockingController1.Name" xml:space="preserve">
+    <value>barAndDockingController1</value>
+  </data>
+  <data name="&gt;&gt;barAndDockingController1.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarAndDockingController, DevExpress.XtraBars.v8.2, Version=8.2.4.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;mnuSchliessen.Name" xml:space="preserve">
+    <value>mnuSchliessen</value>
+  </data>
+  <data name="&gt;&gt;mnuSchliessen.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v8.2, Version=8.2.4.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;mnuPasswordAendern.Name" xml:space="preserve">
+    <value>mnuPasswordAendern</value>
+  </data>
+  <data name="&gt;&gt;mnuPasswordAendern.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v8.2, Version=8.2.4.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;mnuBenutzerliste.Name" xml:space="preserve">
+    <value>mnuBenutzerliste</value>
+  </data>
+  <data name="&gt;&gt;mnuBenutzerliste.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v8.2, Version=8.2.4.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;barButtonItem1.Name" xml:space="preserve">
+    <value>barButtonItem1</value>
+  </data>
+  <data name="&gt;&gt;barButtonItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v8.2, Version=8.2.4.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;barButtonItem2.Name" xml:space="preserve">
+    <value>barButtonItem2</value>
+  </data>
+  <data name="&gt;&gt;barButtonItem2.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v8.2, Version=8.2.4.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;barButtonItem3.Name" xml:space="preserve">
+    <value>barButtonItem3</value>
+  </data>
+  <data name="&gt;&gt;barButtonItem3.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v8.2, Version=8.2.4.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;barButtonItem4.Name" xml:space="preserve">
+    <value>barButtonItem4</value>
+  </data>
+  <data name="&gt;&gt;barButtonItem4.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v8.2, Version=8.2.4.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;barButtonItem5.Name" xml:space="preserve">
+    <value>barButtonItem5</value>
+  </data>
+  <data name="&gt;&gt;barButtonItem5.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v8.2, Version=8.2.4.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;barSubItem2.Name" xml:space="preserve">
+    <value>barSubItem2</value>
+  </data>
+  <data name="&gt;&gt;barSubItem2.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v8.2, Version=8.2.4.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;barStaticItem1.Name" xml:space="preserve">
+    <value>barStaticItem1</value>
+  </data>
+  <data name="&gt;&gt;barStaticItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarStaticItem, DevExpress.XtraBars.v8.2, Version=8.2.4.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;barStaticItem2.Name" xml:space="preserve">
+    <value>barStaticItem2</value>
+  </data>
+  <data name="&gt;&gt;barStaticItem2.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarStaticItem, DevExpress.XtraBars.v8.2, Version=8.2.4.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;barStaticItem3.Name" xml:space="preserve">
+    <value>barStaticItem3</value>
+  </data>
+  <data name="&gt;&gt;barStaticItem3.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarStaticItem, DevExpress.XtraBars.v8.2, Version=8.2.4.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;barStaticItem4.Name" xml:space="preserve">
+    <value>barStaticItem4</value>
+  </data>
+  <data name="&gt;&gt;barStaticItem4.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarStaticItem, DevExpress.XtraBars.v8.2, Version=8.2.4.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;barStaticItem5.Name" xml:space="preserve">
+    <value>barStaticItem5</value>
+  </data>
+  <data name="&gt;&gt;barStaticItem5.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarStaticItem, DevExpress.XtraBars.v8.2, Version=8.2.4.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;barStaticItem6.Name" xml:space="preserve">
+    <value>barStaticItem6</value>
+  </data>
+  <data name="&gt;&gt;barStaticItem6.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarStaticItem, DevExpress.XtraBars.v8.2, Version=8.2.4.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;barStaticItem7.Name" xml:space="preserve">
+    <value>barStaticItem7</value>
+  </data>
+  <data name="&gt;&gt;barStaticItem7.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarStaticItem, DevExpress.XtraBars.v8.2, Version=8.2.4.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;barStaticItem8.Name" xml:space="preserve">
+    <value>barStaticItem8</value>
+  </data>
+  <data name="&gt;&gt;barStaticItem8.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarStaticItem, DevExpress.XtraBars.v8.2, Version=8.2.4.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;BarBtnAddUser.Name" xml:space="preserve">
+    <value>BarBtnAddUser</value>
+  </data>
+  <data name="&gt;&gt;BarBtnAddUser.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v8.2, Version=8.2.4.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;barButtonItem9.Name" xml:space="preserve">
+    <value>barButtonItem9</value>
+  </data>
+  <data name="&gt;&gt;barButtonItem9.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v8.2, Version=8.2.4.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;barEditItem1.Name" xml:space="preserve">
+    <value>barEditItem1</value>
+  </data>
+  <data name="&gt;&gt;barEditItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarEditItem, DevExpress.XtraBars.v8.2, Version=8.2.4.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;repositoryItemPictureEdit1.Name" xml:space="preserve">
+    <value>repositoryItemPictureEdit1</value>
+  </data>
+  <data name="&gt;&gt;repositoryItemPictureEdit1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemPictureEdit, DevExpress.XtraEditors.v8.2, Version=8.2.4.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;barLargeButtonItem1.Name" xml:space="preserve">
+    <value>barLargeButtonItem1</value>
+  </data>
+  <data name="&gt;&gt;barLargeButtonItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarLargeButtonItem, DevExpress.XtraBars.v8.2, Version=8.2.4.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;barButtonItem13.Name" xml:space="preserve">
+    <value>barButtonItem13</value>
+  </data>
+  <data name="&gt;&gt;barButtonItem13.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v8.2, Version=8.2.4.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;barButtonItem14.Name" xml:space="preserve">
+    <value>barButtonItem14</value>
+  </data>
+  <data name="&gt;&gt;barButtonItem14.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v8.2, Version=8.2.4.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;deneme.Name" xml:space="preserve">
+    <value>deneme</value>
+  </data>
+  <data name="&gt;&gt;deneme.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarStaticItem, DevExpress.XtraBars.v8.2, Version=8.2.4.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;barButtonItem6.Name" xml:space="preserve">
+    <value>barButtonItem6</value>
+  </data>
+  <data name="&gt;&gt;barButtonItem6.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v8.2, Version=8.2.4.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;barButtonItem7.Name" xml:space="preserve">
+    <value>barButtonItem7</value>
+  </data>
+  <data name="&gt;&gt;barButtonItem7.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v8.2, Version=8.2.4.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;barButtonItem8.Name" xml:space="preserve">
+    <value>barButtonItem8</value>
+  </data>
+  <data name="&gt;&gt;barButtonItem8.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v8.2, Version=8.2.4.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;toolTipController1.Name" xml:space="preserve">
+    <value>toolTipController1</value>
+  </data>
+  <data name="&gt;&gt;toolTipController1.Type" xml:space="preserve">
+    <value>DevExpress.Utils.ToolTipController, DevExpress.Utils.v8.2, Version=8.2.4.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;xtraTabbedMdiManager1.Name" xml:space="preserve">
+    <value>xtraTabbedMdiManager1</value>
+  </data>
+  <data name="&gt;&gt;xtraTabbedMdiManager1.Type" xml:space="preserve">
+    <value>DevExpress.XtraTabbedMdi.XtraTabbedMdiManager, DevExpress.XtraBars.v8.2, Version=8.2.4.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;treeListColumn1.Name" xml:space="preserve">
+    <value>treeListColumn1</value>
+  </data>
+  <data name="&gt;&gt;treeListColumn1.Type" xml:space="preserve">
+    <value>DevExpress.XtraTreeList.Columns.TreeListColumn, DevExpress.XtraTreeList.v8.2, Version=8.2.4.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;treeListColumn2.Name" xml:space="preserve">
+    <value>treeListColumn2</value>
+  </data>
+  <data name="&gt;&gt;treeListColumn2.Type" xml:space="preserve">
+    <value>DevExpress.XtraTreeList.Columns.TreeListColumn, DevExpress.XtraTreeList.v8.2, Version=8.2.4.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;treeListColumn3.Name" xml:space="preserve">
+    <value>treeListColumn3</value>
+  </data>
+  <data name="&gt;&gt;treeListColumn3.Type" xml:space="preserve">
+    <value>DevExpress.XtraTreeList.Columns.TreeListColumn, DevExpress.XtraTreeList.v8.2, Version=8.2.4.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;treeListColumn4.Name" xml:space="preserve">
+    <value>treeListColumn4</value>
+  </data>
+  <data name="&gt;&gt;treeListColumn4.Type" xml:space="preserve">
+    <value>DevExpress.XtraTreeList.Columns.TreeListColumn, DevExpress.XtraTreeList.v8.2, Version=8.2.4.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;treeListColumn5.Name" xml:space="preserve">
+    <value>treeListColumn5</value>
+  </data>
+  <data name="&gt;&gt;treeListColumn5.Type" xml:space="preserve">
+    <value>DevExpress.XtraTreeList.Columns.TreeListColumn, DevExpress.XtraTreeList.v8.2, Version=8.2.4.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;treeListColumn6.Name" xml:space="preserve">
+    <value>treeListColumn6</value>
+  </data>
+  <data name="&gt;&gt;treeListColumn6.Type" xml:space="preserve">
+    <value>DevExpress.XtraTreeList.Columns.TreeListColumn, DevExpress.XtraTreeList.v8.2, Version=8.2.4.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;imageCollection1.Name" xml:space="preserve">
+    <value>imageCollection1</value>
+  </data>
+  <data name="&gt;&gt;imageCollection1.Type" xml:space="preserve">
+    <value>DevExpress.Utils.ImageCollection, DevExpress.Utils.v8.2, Version=8.2.4.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup1.Name" xml:space="preserve">
+    <value>layoutControlGroup1</value>
+  </data>
+  <data name="&gt;&gt;layoutControlGroup1.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlGroup, DevExpress.XtraLayout.v8.2, Version=8.2.4.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem1.Name" xml:space="preserve">
+    <value>layoutControlItem1</value>
+  </data>
+  <data name="&gt;&gt;layoutControlItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraLayout.LayoutControlItem, DevExpress.XtraLayout.v8.2, Version=8.2.4.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;popupMenuNodes.Name" xml:space="preserve">
+    <value>popupMenuNodes</value>
+  </data>
+  <data name="&gt;&gt;popupMenuNodes.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.PopupMenu, DevExpress.XtraBars.v8.2, Version=8.2.4.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmMain</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.XtraForm, DevExpress.Utils.v8.2, Version=8.2.4.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1</value>
+  </data>
+  <data name="mnuSchliessen.Caption" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="mnuPasswordAendern.Caption" xml:space="preserve">
+    <value>Change Password</value>
+  </data>
+  <data name="mnuBenutzerliste.Caption" xml:space="preserve">
+    <value>User Manager</value>
+  </data>
+  <data name="mnuBenutzerliste.Glyph" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAAK+wAA
+        CvsBy58dkAAAAmVJREFUOE/Nk/1L02EUxc8inVm+kGm4jCgrdGZiLrVCLAWnRFiQ1aC01BqYuqXDl00S
+        SywMLUyHZqbTZltT870yNDBZpokRlqC/RAoVZFFQP1h5+gqhDPsDvHC4PDyXzz3ngQdYTiXqzoWyVYOB
+        Di1emVQw9F2Ezz+DEqHvE3RGkPy/pjuzUNJVAA5XgmMGcLQGbNfiszCc5OfnPyvbHUJnV3cK5zlBp2wg
+        jRmQmjLxp+8aWJsGGjOdWK8GRwrd5iBymAyPOEhXFydGBoIBWzAPqbABVCZD1awD61Xgh5ZE8r2RnDaR
+        g0q62GFWGOaUCRyvA4fKwB4dqm0AVWeRas4C9ckgrXnkaDH5upTsUVAEUZtFuBu8Cc477MwH21QotgEY
+        1PC6l45vd1LAn60KciBbAGWSDcHjeUY4Vp3DTKcG7MgGG4Ulysv2R5Y8ZHLcgWOao+vnHgnZ2bCDP8pl
+        3CUrbIh+sbFd81HNlEJn1lyNYJR+G71rN3/3LF0VtAjZafBCiOWTh3qMTod72UsysX6KCO+mNKeAet5g
+        8a/rjLVGM3b4EKNGY+imdehfBAToKyQJ3fTNfk6x3Mw08yRji6zcdP4ZEWih9msGdTNapk+rePytgvtH
+        IuhxxfX3AmBF6O0JyemH9E59Sl/dEB1jzFwtyD//JZ3kjxnZHM+kdwlUTJxk1JCc0nIPrskWv1kAiIJu
+        9YnD6rgu7gG3X+inNHeQPllWSuK7KApu+uKZE1awtdKuekOJ2OheZF/mfGnlCeRCvBhhb4sdZJZ4BN+/
+        iz3NfQhteYIgcy1kTUoEWNYup/+21MtflfElnE75n3kAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="barButtonItem1.Caption" xml:space="preserve">
+    <value>Server bearbeiten</value>
+  </data>
+  <data name="barButtonItem2.Caption" xml:space="preserve">
+    <value>Server löschen</value>
+  </data>
+  <data name="barButtonItem3.Caption" xml:space="preserve">
+    <value>Neu Switch</value>
+  </data>
+  <data name="barButtonItem4.Caption" xml:space="preserve">
+    <value>Switch bearbeiten</value>
+  </data>
+  <data name="barButtonItem5.Caption" xml:space="preserve">
+    <value>Switch löschen</value>
+  </data>
+  <data name="barSubItem2.Caption" xml:space="preserve">
+    <value>Import - Export</value>
+  </data>
+  <data name="barStaticItem1.Caption" xml:space="preserve">
+    <value>Import</value>
+  </data>
+  <data name="barStaticItem2.Caption" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="barStaticItem3.Caption" xml:space="preserve">
+    <value>User Accounts</value>
+  </data>
+  <data name="barStaticItem4.Caption" xml:space="preserve">
+    <value>Import-Export</value>
+  </data>
+  <data name="barStaticItem5.Caption" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="barStaticItem6.Caption" xml:space="preserve">
+    <value>barStaticItem6</value>
+  </data>
+  <data name="barStaticItem7.Caption" xml:space="preserve">
+    <value>User Manager</value>
+  </data>
+  <data name="barStaticItem8.Caption" xml:space="preserve">
+    <value>Change Password</value>
+  </data>
+  <data name="BarBtnAddUser.Caption" xml:space="preserve">
+    <value>Add User</value>
+  </data>
+  <data name="BarBtnAddUser.Glyph" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAAK7wAA
+        Cu8BfXaKSAAAAbVJREFUOE+tk8svA1EUh88fR2JvIxaWNjQaibRBKUI1oogFiYpgIVKvJhVvpSjx2ggi
+        047HBilCFH1M5+fc23qkYyzETb7kLuZ853fOzRD912nvn4egpTcgcXhmJLb2CYm1eUxQYtpPFP92hKDB
+        4zeX5At0XUeGSWk6kumMTHB29WIucfXNGQIISTrzJciNIWWGUZzdflNBghPEkxoe4klc3DzC6hzSjYKu
+        aSnYPzzH3sE5wrsq1sIqFjdVBNZVTK6q8DEPrxos9d4fEuQEIracn6OneX7RXewhoWXwxvd7FlTWDxgF
+        jZ5sgrWtCILMyqaChZCCQFDBkRID9RKoh+kkDPuCRkGt2ycFG9sKQszqloIzNYaTSCwr6CL0vJWB3ISp
+        uR2jwO4alwJRvB5WsMwJTqNcmOtKHYTO51JQC6doYhzM92N1jkrB0oaCRWae4x9zdxFZdBbFbXfFqLss
+        gl0tBNnzBFWNI1IwG4rmiODg5Bbk4g9bs11FMdXyvYax5gnKbQNScBtPfXLznMI185TQZGRbtABUTRgc
+        XzHuoIKfxtIwyHi/cHhRycitf3S1mLzCX//qdwd6AxxErvwRAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="barButtonItem9.Caption" xml:space="preserve">
+    <value>Import-Export</value>
+  </data>
+  <data name="barEditItem1.Caption" xml:space="preserve">
+    <value>barEditItem1</value>
+  </data>
+  <data name="barLargeButtonItem1.Caption" xml:space="preserve">
+    <value>barLargeButtonItem1</value>
+  </data>
+  <data name="barButtonItem13.Caption" xml:space="preserve">
+    <value>barButtonItem13</value>
+  </data>
+  <data name="barButtonItem14.Caption" xml:space="preserve">
+    <value>barButtonItem14</value>
+  </data>
+  <data name="barButtonItem14.Glyph" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAAK7wAA
+        Cu8BfXaKSAAAApxJREFUOE+tk91PkmEYxh9POqmTWv9AR22dddSJB7XZlssTNdrMTQ+AoZaJNoYT8SMs
+        JTF6AxXSlJFDHSAqX/Jh2ZumkAxF/DqAkW3OKNeMt2DpvHqp9SWug9a9Xdtz8Ny/63ruew8h/6MUCnWT
+        wWDUdKl1zi71wHSXemihUz0cVVGmd5TSnGxu1AcFfHkHr1R++VA/m837MRL5go0NYHNzF7FYCqurSYRC
+        Sfh8DNzuLQwOrkIms+6LRKZABmTU7GL2doF4PIFAILFP02F4vQGMjU3DYJiAVjsCijJCLh/G9fIHqQyA
+        Ru9kwFbqU4oFbMPjmYTN9gxGowd6vQM92nGoKDMUbUOoEBwCaFHZmQvdccytfUA0tA16wgXa4YF3xAHr
+        wBj6ui243T6KshYrinmdmQnUvQ7mzdZnnKhZRPa9dZysnEWWYB6EuwAiWAGpWUGWNIzjjUHklOmSGU+Q
+        Ka1Mfn8cscg2tKYoWtV29D22wdI/AlfPEEIv5rESisAfjGHOt7aXAWh9aGdmAnEcvRmC4NE6zomncKp6
+        FkdusCkqw+j374CoCAjFqoPVwWposzCFujhoOgY+tQSOxI4q2Ti8k4t4OfkKfvcsiJKASpaAyEl63rf+
+        YNyXGxmLM4ZjwiVIe0IoqLUiW+SFyb/1y7WdoCNxDUTGJmhmJf0tSYNk4K3bEYHRvIyz9UGcrnDhfJUD
+        T/2xb5HTzunmu+8LIXl9CbXRiyC1vwG4JQqOrMmyM2xYhk4zA7FQA3F1L+ipMEgre/HOd9d0M6ljzyJW
+        wgOz4JYqi6QSY0Kl8oHH04LP64THHcSEM4DnU+w62cjiSA670kOG+GMgRZzGYj5XEb96pX6Zw6l7kp8v
+        lOTllRfk5pac+ela+RfAv/zsr+vcw2FDgIZcAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="deneme.Caption" xml:space="preserve">
+    <value>deneme</value>
+  </data>
+  <data name="barButtonItem6.Caption" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="barButtonItem6.Glyph" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAAK/gAA
+        Cv4B5iV4ZgAAAklJREFUOE+1091PklEcB/BHVjq6cksvumj1D7S8cksuuoguwmzLqW3QpBi+hXNBopMw
+        4XlkYDSsYLPHxRQs3hbojJe1lsMpGDVq6ezCuJNqNpRQNMZi355oC29gdtHZvtu5OL/POWfndwjifw2z
+        2Ryx22ybVoslOT5Op0ymB9sGgz6t1VJ7JKnaUSgGfCX3drlcuyRFQj2sgc0WwuRkGDQdgsm0CINhCRJJ
+        31ZJYGrKujuouQffOhCJJJnCEDyeVXi9MZjNH9DVdet7UaBMTwSi0Wh2iNLhzTcgtJSAx72KTAZIJACf
+        7wva22+migKs0bKfXMu53Ku5INZ/MEB4A2NjETidH2E0hqHRvIRY3F0AWKOseCXNTuXz6Ei66X0tTlir
+        UEPXIAcGCG2AJP0YHg6AovzM/AVEou6dvyeoMB7OjCRbsD/azSactFSDY69DLJaCUjmLoSEvVKrnUKv9
+        aG3tLADlDw9l1F8vYX/ufL6I4xNHcdZRi09rm5iZeY35+QgUiuk8xueLCwBz5zSD5MM2lW9fCJ/CsceV
+        qBs/A6XvNjzeZdwdcUOnoyGXO/JIc7MwXfwVDET2/AQ355y1oUpHYNq/jD65CzLZU/T2OtDf70Zj49US
+        gJ5YCM4Fs9dkApy2V8AdeAeZ1JYH/iAuNDRc2SvZSIoBxZZE2gnaOwJfYA09PVZIpU+YTEEoNKC+/nK8
+        JNDRcWNUdL3tbUszf9H9bIXpPDMEgt+F1AqXq2zjcJTsA/1DPv9+NVMY5/EGvTweyT1Q0b8s+gWTV2z9
+        kR9oSwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="barButtonItem7.Caption" xml:space="preserve">
+    <value>barButtonItem7</value>
+  </data>
+  <data name="barButtonItem8.Caption" xml:space="preserve">
+    <value>deneme</value>
+  </data>
+  <metadata name="xtraTabbedMdiManager1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>134, 17</value>
+  </metadata>
+  <metadata name="popupMenuNodes.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>445, 17</value>
+  </metadata>
+</root>

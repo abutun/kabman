@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{454C1B21-ECBC-4866-9464-94BD1CAA1E57}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>KabMan</RootNamespace>
+    <AssemblyName>KabMan.Controls</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>KabMan.Controls.snk</AssemblyOriginatorKeyFile>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Data.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.XtraBars.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.XtraLayout.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=5377c8e3b72b4073, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="KabMan.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=90b29cc624932fc5, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\KabMan.Data\bin\Debug\KabMan.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controls\C_LookUpDeviceSpecific\C_LookUpDeviceSpecific.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\C_ControlManagerForm\C_ControlManagerForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\C_ControlManagerForm\C_ControlManagerForm.Designer.cs">
+      <DependentUpon>C_ControlManagerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\C_LookUpBase\C_LookUpBase.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\C_LookUpBlechForServer\C_LookUpBlechForServer.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\C_LookUpBlechType\C_LookUpBlechType.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\C_LookUpCableCategory\C_LookUpCableCategory.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\C_LookUpCableLengths\C_LookUpCableLengths.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\C_LookUpCableModel\C_LookUpCableModel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\C_LookUpClass\C_LookUpClass.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\C_LookUpControl\C_LookUpControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\C_LookUpCoordinate\C_LookUpCoordinate.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\C_LookUpDataCenter\C_LookUpDataCenter.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\C_LookUpDevice1\C_LookUpDevice1.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\C_LookUpDevice2\C_LookUpDevice2.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\C_LookUpLocation\C_LookUpLocation.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\C_LookUpOS\C_LookUpOS.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\C_LookUpSan\C_LookUpSan.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\C_LookUpSanGroup\C_LookUpSanGroup.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\C_LookUpTrunkCableTypes\C_LookUpTrunkCableTypes.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\C_LookUpTrunkCablesByCounts\C_LookUpTrunkCablesByCounts.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Designer\ManagerFormDesigner.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Text\TextAssistant.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\KabMan.Resources\KabMan.Resources.csproj">
+      <Project>{F294D033-4D4F-4AC7-843B-6541273940CA}</Project>
+      <Name>KabMan.Resources</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\KabMan.Windows\KabMan.Windows.csproj">
+      <Project>{3DC8F698-A39A-406F-A17C-8750CB9F9C89}</Project>
+      <Name>KabMan.Windows</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Controls\C_ControlManagerForm\C_ControlManagerForm.resx">
+      <DependentUpon>C_ControlManagerForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Controls\C_ControlManagerForm\C_ControlManagerForm.bmp">
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Controls\C_LookUpBase\C_LookUpBase.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Controls\C_LookUpBlechForServer\C_LookUpBlechForServer.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Controls\C_LookUpBlechType\C_LookUpBlechType.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Controls\C_LookUpCableCategory\C_LookUpCableCategory.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Controls\C_LookUpCableModel\C_LookUpCableModel.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Controls\C_LookUpClass\C_LookUpClass.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Controls\C_LookUpCoordinate\C_LookUpCoordinate.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Controls\C_LookUpDataCenter\C_LookUpDataCenter.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Controls\C_LookUpDevice1\C_LookUpDevice1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Controls\C_LookUpDevice2\C_LookUpDevice2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Controls\C_LookUpLocation\C_LookUpLocation.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Controls\C_LookUpOS\C_LookUpOS.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Controls\C_LookUpSan\C_LookUpSan.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Controls\C_LookUpSanGroup\C_LookUpSanGroup.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="KabMan.Controls.snk" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Controls\C_LookUpTrunkCableTypes\C_LookUpTrunkCableTypes.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Controls\C_LookUpTrunkCablesByCounts\C_LookUpTrunkCablesByCounts.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Controls\C_LookUpCableLengths\C_LookUpCableLengths.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Controls\C_LookUpControl\C_LookUpControl.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Controls\C_LookUpDeviceSpecific\C_LookUpDeviceSpecific.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>
